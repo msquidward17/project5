@@ -7,19 +7,10 @@
 	</head>
 	<body>
 		<header>
-			<!-- Needs to be changed to index -->
-			<a href="page1.html">
+			<a href="index.php">
 				<h1>Project 1 - Chicago</h1>
 			</a>
-			<nav>
-				<ul>
-					<!-- Needs to be changed to index -->
-					<li><a href="page1.html">Home</a></li>
-					<li><a href="page2.html">Michael's Page</a></li>
-					<li><a href="page3.html">Eunlim's Page</a></li>
-					<li><a href="page4.html">Dan's Page</a></li>
-				</ul>
-			</nav>
+			<?php include "inc/nav.php"; ?>
 		</header>
 		<main>
 			<article>
