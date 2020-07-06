@@ -15,6 +15,7 @@
 		<a href="index.php">
 				<h1>Project 1 - Chicago</h1>
 			</a>
+			<hr>
 		</div>
 		<div class="content">
 		<header class="nav">

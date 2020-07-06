@@ -13,16 +13,17 @@
 	<body>
 	<div class = "container">
 		<div class="intro">
-		<div class="intro">	
 		<a href="index.php">
 				<h1>Project 1 - Chicago</h1>
 			</a>
+			<hr>
 		</div>
 		<div class="content">
 		<header class="nav">
 			<?php include "inc/nav.php"; ?>
 		</header>
 		<main>
+			<article>
 				<header>
 					<hgroup>
 						<h2>Dan Zhang</h2>
