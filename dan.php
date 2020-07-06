@@ -4,16 +4,25 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Chicago Project 1 | Page 4</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
+
 	</head>
+
 	<body>
-		<header>
-			<a href="index.php">
+	<div class = "container">
+		<div class="intro">
+		<div class="intro">	
+		<a href="index.php">
 				<h1>Project 1 - Chicago</h1>
 			</a>
+		</div>
+		<div class="content">
+		<header class="nav">
 			<?php include "inc/nav.php"; ?>
 		</header>
 		<main>
-			<article>
 				<header>
 					<hgroup>
 						<h2>Dan Zhang</h2>
@@ -25,7 +34,8 @@
 					<h3>Intro</h3>
 					<p>I am a Web Developer majoring in CS in Univeristy of Rochester. I am interested in Front-end Web Development. I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js interacting with database from Mongoose, MongoDB.</p>
 				</article>
-				<article>
+				<hr>
+				<article class="article part1">
 					<header>
 						<h3>Work Experience</h3>
 					</header>
@@ -71,7 +81,8 @@
 						</ul>
 					</section>
 				</article>
-				<article>
+				<hr>
+				<article class="article part2">
 					<header>
 						<h3>Projects</h3>
 					</header>
@@ -142,10 +153,12 @@
 						</ul>
 					</section>
 				</article>
-			</article>
 		</main>
 		<footer>
 			<p>Project 1 - Chicago</p>
 		</footer>
+		</div>
+		</div> 
+		<?php include "inc/scripts.php"; ?>
 	</body>
 </html>

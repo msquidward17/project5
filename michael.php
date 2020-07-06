@@ -4,12 +4,21 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Chicago Project 1 | Page 2</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
+
 	</head>
 	<body>
-		<header>
+	<div class = "container">
+		<div class="intro">
 			<a href="index.php">
 				<h1>Project 1 - Chicago</h1>
 			</a>
+			<hr>
+			</div>
+		<div class="content">
+		<header class="nav">
 			<?php include "inc/nav.php"; ?>
 		</header>
 		<main>
@@ -21,12 +30,14 @@
 					</hgroup>
 					<img src="images/michael-selfie.jpg" alt="Michael Selfie">
 				</header>
+				<hr>
 				<article>
 					<header>
 						<h3>Intro</h3>
 					</header>
 					<p>Hi, my name is Michael (he/him). I am a computer science major, a linguistics minor, and I have a cluster in gender, sexuality, and women's studies. The clubs I am a part of are Off Broadway on Campus (OBOC) and No Jackets Required (NJR). I am the Open Mic and Jam Night Coordinator on the executive board of  NJR. I have some basic experience with writing since I took a short story class in high school, and completed the required undergraduate first year writing course (WRT105). I have a good amount of programming skills. Prior CSC courses: 170, 171, 172, 173, 242, 247, 250.</p>
 				</article>
+				<hr>
 				<article>
 					<header>
 						<h3>My Music Journey</h3>
@@ -41,6 +52,7 @@
 						<figcaption>Singing I Hate Myself for Loving You</figcaption>
 					</figure>
 				</article>
+				<hr>
 				<article>
 					<header>
 						<h3>Theater</h3>
@@ -55,11 +67,12 @@
 						<figcaption>As the Old Man in the Tell Tale Heart</figcaption>
 					</figure>
 				</article>
+				<hr>
 				<article>
 					<header>
 						<h3>Old Websites</h3>
-						<p>This section showcases the websites that I made for CSC170</p>
 					</header>
+					<p>This section showcases the websites that I made for CSC170</p>
 					<!-- These images could be in figures if needed -->
 					<img src="images/project2.jpg" alt="Proejct 2 from CSC170">
 					<img src="images/lab17.jpg" alt="Lab 17 from CSC170">
@@ -72,5 +85,8 @@
 		<footer>
 			<p>Project 1 - Chicago</p>
 		</footer>
+		</div>
+		</div>
+		<?php include "inc/scripts.php"; ?>
 	</body>
 </html>

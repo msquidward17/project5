@@ -4,17 +4,24 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Chicago Project 1 | Home</title>
-		<link rel="stylesheet" href="css/temp.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<header>
-			<a href="index.php">
-				<h1>Project 1 - Chicago</h1>
-			</a>
+	<div class = "container">
+		<div class="intro">
+		<a href="index.php">
+			<h1>Project 1 - Chicago</h1>
+		</a>
+		<hr>
+		</div>
+		<div class="content">
+		<header class="nav">
 			<?php include "inc/nav.php"; ?>
 		</header>
 		<main>
-			<article>
+			<article class="article part1">
 				<header>
 					<hgroup>
 						<h2>Michael Bashner</h2>
@@ -27,7 +34,8 @@
 					<a href="page2.html">Michael's Website</a>
 				</footer>
 			</article>
-			<article>
+			<hr>
+			<article class="article part2">
 				<header>
 					<hgroup>
 						<h2>Eunlim Kim</h2>
@@ -43,7 +51,8 @@
 					<a href="page3.html">Eunlim's Website</a>
 				</footer>
 			</article>
-			<article>
+			<hr>
+			<article class="article part3">
 				<header>
 					<hgroup>
 						<h2>Dan Zhang</h2>
@@ -56,9 +65,13 @@
 					<a href="page4.html">Dan's Website</a>
 				</footer>
 			</article>
+			<hr>
 		</main>
 		<footer>
 			<p>Project 1 - Chicago</p>
 		</footer>
+		</div>
+		</div> 
+		<?php include "inc/scripts.php"; ?>
 	</body>
 </html>
