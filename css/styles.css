@@ -81,6 +81,14 @@ li{
 	background-color: #226698;
 }
 
+figure {
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
 footer{
 	font-size: 16px;
 	text-align: center;
