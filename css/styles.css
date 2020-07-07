@@ -5,9 +5,9 @@ body {
     margin: 0;
 }
 
-.container{ 
-    margin: 6%;
-    max-width: 960x;
+.container{
+    margin: 6% auto;
+    max-width: 960px;
     font-size: 0;
     font-family: "Pangolin", cursive;
 
@@ -65,27 +65,27 @@ li{
     padding-bottom: 4px;
 }
 hr{
-    size: 3px;
+    width: 3px;
     color:white;
 }
 
 .home {
-	border: 5px outset #E92A28;
+	border: 5px outset;
 	background-color: #E92A28;
 }
 
 .michael {
-	border: 5px outset #FFCB4C;
+	border: 5px outset;
 	background-color: #FFCB4C;
 }
 
 .eunlim {
-	border: 5px outset #5B8F3F;
+	border: 5px outset;
 	background-color: #5B8F3F;
 }
 
 .dan {
-	border: 5px outset #226698;
+	border: 5px outset;
 	background-color: #226698;
 }
 

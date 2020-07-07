@@ -33,7 +33,7 @@ nav > ul > li {
 
 .nav {
 	background-color: black;
-	border: black 5px outset;
+	border: 5px outset;
 }
 
 a.home, a.michael, a.eunlim, a.dan {
