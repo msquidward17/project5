@@ -11,16 +11,13 @@
 	</head>
 	<body>
 	<div class = "container">
-		<div class="intro">	
+		<header class="intro">
 		<a href="index.php">
-				<h1>Project 1 - Chicago</h1>
-			</a>
-			<hr>
-		</div>
-		<div class="content">
-		<header class="nav">
-			<?php include "inc/nav.php"; ?>
+			<h1>Project 1 - Chicago</h1>
+		</a>
+		<hr>
 		</header>
+			<?php include "inc/nav.php"; ?>
 		<main>
 			<article>
 				<header>
@@ -70,7 +67,6 @@
 			<p>Project 1 - Chicago</p>
 		</footer>
 		</div>
-</div>
 <?php include "inc/scripts.php"; ?>
 	</body>
 </html>

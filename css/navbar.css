@@ -23,6 +23,9 @@ nav > ul > li {
 	padding: 2px 8px;
 }
 
+.menu{
+	vertical-align: top;
+}
 .menu a:hover {
 	color: white;
 	text-decoration: underline;
