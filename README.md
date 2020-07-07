@@ -1,4 +1,4 @@
-# csc174project1
+# csc174project1 / Chicago Project 1
 Team Chicago
 
 - Michael Bashner, Information Architect
