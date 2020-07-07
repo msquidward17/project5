@@ -7,17 +7,14 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/navbar.css">
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
-
 	</head>
-	<body>
-	<div class = "container">
+	<body class="container">
 		<header class="intro">
-		<a href="index.php">
-			<h1>Project 1 - Chicago</h1>
-		</a>
-		<hr>
-		</header>
+			<a href="index.php">
+				<h1>Project 1 - Chicago</h1>
+			</a>
 			<?php include "inc/nav.php"; ?>
+		</header>
 		<main>
 			<article>
 				<header>
@@ -27,14 +24,12 @@
 					</hgroup>
 					<img src="images/michael-selfie.jpg" alt="Michael Selfie">
 				</header>
-				<hr>
 				<article>
 					<header>
 						<h3>Intro</h3>
 					</header>
 					<p>Hi, my name is Michael (he/him). I am a computer science major, a linguistics minor, and I have a cluster in gender, sexuality, and women's studies. The clubs I am a part of are Off Broadway on Campus (OBOC) and No Jackets Required (NJR). I am the Open Mic and Jam Night Coordinator on the executive board of  NJR. I have some basic experience with writing since I took a short story class in high school, and completed the required undergraduate first year writing course (WRT105). I have a good amount of programming skills. Prior CSC courses: 170, 171, 172, 173, 242, 247, 250.</p>
 				</article>
-				<hr>
 				<article>
 					<header>
 						<h3>My Music Journey</h3>
@@ -49,7 +44,6 @@
 						<figcaption>Singing I Hate Myself for Loving You</figcaption>
 					</figure>
 				</article>
-				<hr>
 				<article>
 					<header>
 						<h3>Theater</h3>
@@ -64,7 +58,6 @@
 						<figcaption>As the Old Man in the Tell Tale Heart</figcaption>
 					</figure>
 				</article>
-				<hr>
 				<article>
 					<header>
 						<h3>Old Websites</h3>
@@ -82,7 +75,6 @@
 		<footer>
 			<p>Project 1 - Chicago</p>
 		</footer>
-		</div>
 		<?php include "inc/scripts.php"; ?>
 	</body>
 </html>

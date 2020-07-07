@@ -7,18 +7,14 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/navbar.css">
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
-
 	</head>
-
-	<body>
-	<div class = "container">
+	<body class="container">
 		<header class="intro">
-		<a href="index.php">
-			<h1>Project 1 - Chicago</h1>
-		</a>
-		<hr>
+			<a href="index.php">
+				<h1>Project 1 - Chicago</h1>
+			</a>
 		</header>
-			<?php include "inc/nav.php"; ?>
+		<?php include "inc/nav.php"; ?>
 		<main>
 			<article>
 				<header>
@@ -32,7 +28,6 @@
 					<h3>Intro</h3>
 					<p>I am a Web Developer majoring in CS in Univeristy of Rochester. I am interested in Front-end Web Development. I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js interacting with database from Mongoose, MongoDB.</p>
 				</article>
-				<hr>
 				<article class="article part1">
 					<header>
 						<h3>Work Experience</h3>
@@ -79,7 +74,6 @@
 						</ul>
 					</section>
 				</article>
-				<hr>
 				<article class="article part2">
 					<header>
 						<h3>Projects</h3>
@@ -151,11 +145,10 @@
 						</ul>
 					</section>
 				</article>
-		</main>
-		<footer>
-			<p>Project 1 - Chicago</p>
-		</footer>
-		</div>
-		<?php include "inc/scripts.php"; ?>
-	</body>
-</html>
+			</main>
+			<footer>
+				<p>Project 1 - Chicago</p>
+			</footer>
+			<?php include "inc/scripts.php"; ?>
+		</body>
+	</html>

@@ -7,17 +7,14 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/navbar.css">
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
-
 	</head>
-	<body>
-	<div class = "container">
+	<body class="container">
 		<header class="intro">
-		<a href="index.php">
-			<h1>Project 1 - Chicago</h1>
-		</a>
-		<hr>
+			<a href="index.php">
+				<h1>Project 1 - Chicago</h1>
+			</a>
 		</header>
-			<?php include "inc/nav.php"; ?>
+		<?php include "inc/nav.php"; ?>
 		<main>
 			<article>
 				<header>
@@ -27,7 +24,6 @@
 					</hgroup>
 					<img src="images/eunlimkim.jpg" alt="eunlim selfie"/>
 				</header>
-				<hr>
 				<article>
 					<header>
 						<h3>Intro</h3>
@@ -37,14 +33,12 @@
 					<p>Class of 2021</p>
 					<p>Hello. I am Eunlim Kim and this is my webpage! This webpage is made for CSC174 and looks very interesting! Hope you have a great day!</p>
 				</article>
-				<hr>
 				<article>
 					<header>
 						<h3>Early Years</h3>
 					</header>
 					<p> I was born in Daegu, South Korea and moved to Ulsan. After 7 years in Ulsan, my parents decided to move to Busan for better education. I went elementary school and middle school in Busan then I told my parents that I want to study in the United States. In 2012, I left South Korea and started to study in Rhode Island. I met most of my good friends during that time.</p>
 				</article>
-				<hr>
 				<article>
 					<header>
 						<h3>Projects</h3>
@@ -66,7 +60,6 @@
 		<footer>
 			<p>Project 1 - Chicago</p>
 		</footer>
-		</div>
-<?php include "inc/scripts.php"; ?>
+		<?php include "inc/scripts.php"; ?>
 	</body>
 </html>
