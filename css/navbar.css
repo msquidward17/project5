@@ -38,6 +38,7 @@ nav > ul > li {
 a.home, a.michael, a.eunlim, a.dan {
 	border-style: outset;
 	border-color: white;
+	padding: 2%;
 	color: black;
 }
 
