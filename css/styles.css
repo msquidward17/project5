@@ -1,7 +1,7 @@
 body {
 	background-color: black;
 	color: white;
-	margin: 0;
+	/* margin: 0; */
 }
 
 .container{
@@ -18,18 +18,12 @@ body {
 	font-size: 20px;
 }
 
-
 header{
 	vertical-align: top;
 }
 
-#part1-header{
-	text-align: center;
-}
-
 nav{
 	font-size: 20px;
-	display: inline-block;
 }
 
 ul {
@@ -38,8 +32,8 @@ ul {
   }
 
 main{
-	display: inline-block;
-	width: 73%;
+	margin: auto;
+	width: 85%;
 	font-size: 20px;
 	padding: 2%;
 }
@@ -65,10 +59,6 @@ a{
 
 li{
 	padding-bottom: 4px;
-}
-hr{
-	width: 3px;
-	color:white;
 }
 
 .home {
