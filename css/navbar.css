@@ -37,10 +37,13 @@ nav > ul > li {
 
 a.home, a.michael, a.eunlim, a.dan {
 	border-style: outset;
+	border-color: white;
+	color: black;
 }
 
 a.home:hover, a.michael:hover, a.eunlim:hover, a.dan:hover {
 	border-style: inset;
+	color: white;
 }
 
 .menu a.is-current {
