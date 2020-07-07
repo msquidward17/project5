@@ -145,10 +145,11 @@
 						</ul>
 					</section>
 				</article>
-			</main>
-			<footer>
-				<p>Project 1 - Chicago</p>
-			</footer>
-			<?php include "inc/scripts.php"; ?>
-		</body>
-	</html>
+			</article>
+		</main>
+		<footer>
+			<p>Project 1 - Chicago</p>
+		</footer>
+		<?php include "inc/scripts.php"; ?>
+	</body>
+</html>
