@@ -4,9 +4,12 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Chicago Project 1 | Home</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<header>
+	<body class="container">
+		<header class="intro">
 			<a href="index.php">
 				<h1>Project 1 - Chicago</h1>
 			</a>
