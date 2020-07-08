@@ -37,6 +37,10 @@
 					<header>
 						<h3>Early Years</h3>
 					</header>
+                    <figure>
+                        <img src="images/rhodeisland.jpg" alt="Map of Rhode Island"/>
+                        <figcaption>Map of Rhode Island</figcaption>
+                    </figure>
 					<p> I was born in Daegu, South Korea and moved to Ulsan. After 7 years in Ulsan, my parents decided to move to Busan for better education. I went elementary school and middle school in Busan then I told my parents that I want to study in the United States. In 2012, I left South Korea and started to study in Rhode Island. I met most of my good friends during that time.</p>
 				</article>
 				<article>
@@ -58,6 +62,7 @@
 			</article>
 		</main>
 		<footer>
+            <a href="http://csc174.org/lab01/ekim69/" class="eunlim">Eunlim's Original Lab 1</a>
 			<p>Project 1 - Chicago</p>
 		</footer>
 		<?php include "inc/scripts.php"; ?>

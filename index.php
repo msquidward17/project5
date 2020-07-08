@@ -27,7 +27,8 @@
 					</header>
 					<p>Hi, my name is Michael (he/him). I am a computer science major, a linguistics minor, and I have a cluster in gender, sexuality, and women's studies. The clubs I am a part of are Off Broadway on Campus (OBOC) and No Jackets Required (NJR). I am the Open Mic and Jam Night Coordinator on the executive board of  NJR. I have some basic experience with writing since I took a short story class in high school, and completed the required undergraduate first year writing course (WRT105). I have a good amount of programming skills. Prior CSC courses: 170, 171, 172, 173, 242, 247, 250.</p>
 					<footer>
-						<a href="michael.php" class="michael">Michael's Website</a>
+						<a href="michael.php" class="michael">Michael's Page</a>
+                        <a href="http://csc174.org/lab01/mbashner/" class="michael">Michael's Lab 1</a>
 					</footer>
 				</article>
 				<article class="article part2">
@@ -43,7 +44,8 @@
 					<p>Class of 2021</p>
 					<p>Hello. I am Eunlim Kim and this is my webpage! This webpage is made for CSC174 and looks very interesting! Hope you have a great day!</p>
 					<footer>
-						<a href="eunlim.php" class="eunlim">Eunlim's Website</a>
+						<a href="eunlim.php" class="eunlim">Eunlim's Page</a>
+                        <a href="http://csc174.org/lab01/ekim69/" class="eunlim">Eunlim's Lab 1</a>
 					</footer>
 				</article>
 				<article class="article part3">
@@ -56,7 +58,8 @@
 					</header>
 					<p>I am a Web Developer majoring in CS in Univeristy of Rochester. I am interested in Front-end Web Development. I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js interacting with database from Mongoose, MongoDB.</p>
 					<footer>
-						<a href="dan.php" class="dan">Dan's Website</a>
+						<a href="dan.php" class="dan">Dan's Page</a>
+                        <a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Lab 1</a>
 					</footer>
 				</article>
 			</main>

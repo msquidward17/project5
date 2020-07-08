@@ -148,6 +148,7 @@
 			</article>
 		</main>
 		<footer>
+            <a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Original Lab 1</a>
 			<p>Project 1 - Chicago</p>
 		</footer>
 		<?php include "inc/scripts.php"; ?>
