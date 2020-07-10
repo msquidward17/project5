@@ -1,8 +1,2 @@
-# csc174project1 / Chicago Project 1
-Team Chicago
+# csc174project1 / LA Project 2
 
-- Michael Bashner, Information Architect
-- Eunlim Kim, ﻿﻿Visual Designer
-- Dan Zhang, Technician
-
-Website:  [Chicago Project 1](http://csc174.org/project1/chicago/)
