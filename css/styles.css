@@ -38,7 +38,14 @@ main{
 	padding: 2%;
 }
 
-main > article > header {
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+
+h2, main > article > header {
 	text-align: center;
 }
 
@@ -46,10 +53,6 @@ article, section{
 	border-style: solid;
 	border-color: rgb(94, 97, 97);
 	padding: 5%;
-}
-
-h2{
-	display: inline;
 }
 
 a{
