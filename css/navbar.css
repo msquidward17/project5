@@ -44,14 +44,14 @@ header > a:hover {
 	border: 5px outset;
 }
 
-a.home, a.michael, a.eunlim, a.dan {
+a.home, a.leah, a.evan, a.dan {
 	border-style: outset;
 	border-color: white;
 	padding: 2%;
 	color: black;
 }
 
-a.home:hover, a.michael:hover, a.eunlim:hover, a.dan:hover {
+a.home:hover, a.leah:hover, a.evan:hover, a.dan:hover {
 	border-style: inset;
 	color: white;
 }

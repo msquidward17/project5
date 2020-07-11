@@ -42,7 +42,7 @@ main > article > header {
 	text-align: center;
 }
 
-article{
+article, section{
 	border-style: solid;
 	border-color: rgb(94, 97, 97);
 	padding: 5%;
@@ -66,12 +66,12 @@ li{
 	background-color: #E92A28;
 }
 
-.michael {
+.leah {
 	border: 5px outset;
 	background-color: #FFCB4C;
 }
 
-.eunlim {
+.evan {
 	border: 5px outset;
 	background-color: #5B8F3F;
 }
