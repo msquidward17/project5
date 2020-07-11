@@ -72,7 +72,7 @@
     </main>
 
     <footer>
-        <a href="http://csc174.org/lab01/lgoodwi3/" target="_blank">Leah's Original Site</a>
+        <a href="http://csc174.org/lab01/lgoodwi3/" target="_blank" class="leah">Leah's Original Site</a>
     </footer>
 
     <?php include "inc/scripts.php"; ?>
