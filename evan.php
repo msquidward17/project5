@@ -63,7 +63,6 @@
 
     <footer>
         <a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Original Lab 1</a>
-        <a href="index.php">Home</a>
     </footer>
 
     <?php include "inc/scripts.php"; ?>
