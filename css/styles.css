@@ -44,7 +44,7 @@ img{
 	margin-bottom: 15px;
 }
 
-h2, main > article > header {
+h2, h3, main > article > header {
 	text-align: center;
 }
 
@@ -55,8 +55,7 @@ article, section{
 }
 
 a{
-	text-align: center;
-	display:inline-block;
+	display: inline-block;
 }
 
 li{
@@ -91,7 +90,7 @@ a {
 	color: white;
 }
 
-footer{
+footer, div{
 	font-size: 16px;
 	text-align: center;
 }
