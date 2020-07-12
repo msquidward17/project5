@@ -28,9 +28,11 @@
 
 		        <p>Goal for Computer Science: </p>
 
-		        <a href="leah.php" class="leah">Leah's Page</a>
+		        <div>
+		            <a href="leah.php" class="leah">Leah's Page</a>
 
-                <a href="http://csc174.org/lab01/lgoodwi3/" class="leah">Leah's Lab 1</a>
+                    <a href="http://csc174.org/lab01/lgoodwi3/" class="leah">Leah's Lab 1</a>
+		        </div>
 			</section>
 
 			<section class="article part2">
@@ -38,11 +40,14 @@
 
 				<img src="images/self.jpg" alt="evan selfie">
 
-				<p>Goal for Computer Science: </p>
+				<p>Goal for Computer Science: to have a job that incorporates, but isn't limited to, web development and
+				    computer science principles</p>
 
-				<a href="evan.php" class="evan">Evan's Page</a>
+				<div>
+				    <a href="evan.php" class="evan">Evan's Page</a>
 
-                <a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Lab 1</a>
+                    <a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Lab 1</a>
+				</div>
 			</section>
 
 			<section class="article part3">
@@ -52,9 +57,11 @@
 
 				<p>Goal for Computer Science: </p>
 
-				<a href="dan.php" class="dan">Dan's Page</a>
+				<div>
+				    <a href="dan.php" class="dan">Dan's Page</a>
 
-                <a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Lab 1</a>
+                    <a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Lab 1</a>
+				</div>
 			</section>
 		</article>
 	</main>
