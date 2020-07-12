@@ -3,11 +3,73 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Chicago Project 1 | Page 4</title>
+		<title>Dan Zhang | LA Project 2</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/navbar.css">
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
 	</head>
+
+	<!-- Below is structure, below structure is your original content -->
+
+	<body class="container">
+	<header class="intro">
+		<a href="index.php">
+			<h1>Dan Zhang</h1>
+		</a>
+	</header>
+
+	<?php include "inc/nav.php"; ?>
+
+    <main>
+        <article>
+            <h2>A Little About Dan</h2>
+
+            <img src="images/girl.png" alt="dan">
+
+            <section>
+                <h3>Introduction</h3>
+
+                
+            </section>
+
+            <section>
+                <h3>Early Life</h3>
+
+                
+            </section>
+
+            <section>
+                <h3>Relevant CS Coursework</h3>
+
+                <ul>
+                    
+                </ul>
+            </section>
+
+            <section>
+                <h3>Extracurricular Activities</h3>
+
+                <ul>
+                    
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Original Lab 1</a>
+    </footer>
+
+    <?php include "inc/scripts.php"; ?>
+
+</body>
+</html>
+
+
+
+
+
+
 	<body class="container">
 		<header class="intro">
 			<a href="index.php">
