@@ -29,20 +29,25 @@
             <section>
                 <h3>Introduction</h3>
 
-                
+                 <p>I am a Web Developer majoring in CS in Univeristy of Rochester. I am interested in Front-end Web Development. I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js interacting with database from Mongoose, MongoDB.</p>
             </section>
 
             <section>
                 <h3>Early Life</h3>
+                <p>I was born in Shanghai,China. I have been living in Shanghai for the first 18 years of my life. And then my dad decided to send me abroad to broaden my horizon. So he sent me to international high school in China and I came to the US. I did not really like SAT and TOEFL but I spent great amount of time making my essay interesting. And that essay is why I get in Rochester and I like the snow in Rochester a lot!(Although many people might not agree with me, Rochester is veyr pretty in my mind).</p>
 
-                
             </section>
 
             <section>
                 <h3>Relevant CS Coursework</h3>
 
                 <ul>
-                    
+                    <li>CSC 170: Intro to Web Development</li>
+                    <li>CSC 171: Intro to Computing Science</li>
+                    <li>CSC 172: Data Structures and Algorithms</li>
+                    <li>CSC 212: Human Computer Interaction</li>
+                    <li>CSC 261: Intro to Database</li>
+                    <li>CSC 299W: Social Impication of Computer Science</li>
                 </ul>
             </section>
 
@@ -50,7 +55,8 @@
                 <h3>Extracurricular Activities</h3>
 
                 <ul>
-                    
+                  <li>Note taking for disability resourse(2019-present)</li>
+                  <li>Volunteer Web Design/Developer(2019-present)</li>
                 </ul>
             </section>
         </article>
@@ -70,7 +76,7 @@
 
 
 
-	<body class="container">
+	<!-- <body class="container">
 		<header class="intro">
 			<a href="index.php">
 				<h1>Project 1 - Chicago</h1>
@@ -215,4 +221,4 @@
 		</footer>
 		<?php include "inc/scripts.php"; ?>
 	</body>
-</html>
+</html> -->
