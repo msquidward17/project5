@@ -28,7 +28,7 @@
                 <p>I'm currently a student at the University of Rochester, class of 2021.
                     I'm majoring in Computer Science with a focus in Human Computer Interaction.
                     I'm also minoring in International Relations. When I'm not busy building
-                    complex worlds,I like to write and draw in my spare time. My main goal is to
+                    complex worlds, I like to write and draw in my spare time. My main goal is to
                     pursue a career in the "creative side" of computer science, more specifically
                     Front-End Web Development and Video Game Development.</p>
             </section>
