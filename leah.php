@@ -65,7 +65,6 @@
                     <li>Archery (2018-Present)</li>
                     <li>Table Tennis (2018-Present)</li>
                     <li>Juggling (2018-Present)</li>
-                    <li>Needle Arts Collective (2019-Present)</li>
                 </ul>
             </section>
         </article>
