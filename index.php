@@ -28,7 +28,7 @@
 
 				<img src="images/me.jpg" alt="leah selfie">
 
-				<p>Goal for Computer Science: To pursue a career in the "creative side" of computer science, more specifically
+				<p>Goal for Computer Science: To pursue a career in
 					Front-End Web Development and Video Game Development. </p>
 
 				<div>
@@ -43,8 +43,8 @@
 
 				<img src="images/self.jpg" alt="evan selfie">
 
-				<p>Goal for Computer Science: to have a job that incorporates, but isn't limited to, web development and
-					computer science principles</p>
+				<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and
+					computer science principles.</p>
 
 				<div>
 					<a href="evan.php" class="evan">Evan's Page</a>
@@ -58,7 +58,7 @@
 
 				<img src="images/girl.png" alt="girl">
 
-				<p>Goal for Computer Science: </p>
+				<p>Goal for Computer Science: To pursue a career in Front-End Web Development. </p>
 
 				<div>
 					<a href="dan.php" class="dan">Dan's Page</a>
