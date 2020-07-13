@@ -1,5 +1,8 @@
-# csc174project1 / LA Project 2
-
+# LA Project 2
+## Members
+- Leah Goodwin
+- Evan Pollack
+- Dan Zhang
 ## Classes and relationships
 Classes:
 - Student has
