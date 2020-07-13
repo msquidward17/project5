@@ -20,7 +20,7 @@
 
     <main>
         <article>
-            <h2>A little about Evan</h2>
+            <h2>A Little About Evan</h2>
 
             <img src="images/self.jpg" alt="me">
 
