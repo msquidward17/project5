@@ -49,7 +49,6 @@
             <section>
                 <h3>Relevant CS Coursework</h3>
                 <ul>
-                    <li>CSC 161: Intro to Programming</li>
                     <li>CSC 170: Intro to Web Development</li>
                     <li>CSC 171: Intro to Computing Science</li>
                     <li>CSC 172: Data Structures and Algorithms</li>
