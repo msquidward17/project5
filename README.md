@@ -1,4 +1,4 @@
-# LA Project 2
+# LA Project 3
 ## Members
 - Jaafar Al Hadab
 - Jack Mandell
