@@ -1,80 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "inc/html-top.php";?>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Dan Zhang | LA Project 2</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/navbar.css">
-	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Indie+Flower&amp;family=Pangolin&amp;family=Patrick+Hand&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet">
-</head>
+	<body class="container">
+		<header class="intro">
+			<a href="index.php">
+				<h1>Dan Zhang</h1>
+			</a>
+		</header>
 
-<!-- Below is structure, below structure is your original content -->
+		<?php include "inc/nav.php"; ?>
 
-<body class="container">
-	<header class="intro">
-		<a href="index.php">
-			<h1>Dan Zhang</h1>
-		</a>
-	</header>
+		<main>
+			<article>
+				<h2>A Little About Dan</h2>
 
-	<?php include "inc/nav.php"; ?>
+				<img src="images/girl.png" alt="dan">
 
-	<main>
-		<article>
-			<h2>A Little About Dan</h2>
+				<section>
+					<h3>Introduction</h3>
+					<p>I am a Web Developer majoring in CS at the Univeristy of Rochester. I am interested in Front-end Web Development.
+						I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js
+						interacting with database from Mongoose, MongoDB.</p>
+				</section>
 
-			<img src="images/girl.png" alt="dan">
+				<section>
+					<h3>Early Life</h3>
+					<p>I was born in Shanghai,China. I have been living in Shanghai for the first 18 years of my life.
+						And then my dad decided to send me abroad to broaden my horizon. So he sent me to an international
+						high school in China and then I came to the US. I did not really like SAT and TOEFL but I spent a great
+						amount of time making my essay interesting. And that essay is how I got into Rochester and I like
+						the snow in Rochester a lot! (Although many people might not agree with me, Rochester is very pretty in my mind).</p>
 
-			<section>
-				<h3>Introduction</h3>
+				</section>
 
-				<p>I am a Web Developer majoring in CS at the Univeristy of Rochester. I am interested in Front-end Web Development.
-					I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js
-					interacting with database from Mongoose, MongoDB.</p>
-			</section>
+				<section>
+					<h3>Relevant CS Coursework</h3>
 
-			<section>
-				<h3>Early Life</h3>
-				<p>I was born in Shanghai,China. I have been living in Shanghai for the first 18 years of my life.
-					And then my dad decided to send me abroad to broaden my horizon. So he sent me to an international
-					high school in China and then I came to the US. I did not really like SAT and TOEFL but I spent a great
-					amount of time making my essay interesting. And that essay is how I got into Rochester and I like
-					the snow in Rochester a lot! (Although many people might not agree with me, Rochester is very pretty in my mind).</p>
+					<ul>
+						<li>CSC 170: Intro to Web Development</li>
+						<li>CSC 171: Intro to Computing Science</li>
+						<li>CSC 172: Data Structures and Algorithms</li>
+						<li>CSC 212: Human Computer Interaction</li>
+						<li>CSC 261: Intro to Database</li>
+						<li>CSC 299W: Social Impication of Computer Science</li>
+					</ul>
+				</section>
 
-			</section>
+				<section>
+					<h3>Extracurricular Activities</h3>
 
-			<section>
-				<h3>Relevant CS Coursework</h3>
+					<ul>
+						<li>Note taking for disability resources (2019-present)</li>
+						<li>Volunteer Web Design/Developer (2019-present)</li>
+					</ul>
+				</section>
+			</article>
+		</main>
 
-				<ul>
-					<li>CSC 170: Intro to Web Development</li>
-					<li>CSC 171: Intro to Computing Science</li>
-					<li>CSC 172: Data Structures and Algorithms</li>
-					<li>CSC 212: Human Computer Interaction</li>
-					<li>CSC 261: Intro to Database</li>
-					<li>CSC 299W: Social Impication of Computer Science</li>
-				</ul>
-			</section>
+		<footer>
+			<a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Original Lab 1</a>
+		</footer>
 
-			<section>
-				<h3>Extracurricular Activities</h3>
+		<?php include "inc/scripts.php"; ?>
 
-				<ul>
-					<li>Note taking for disability resources (2019-present)</li>
-					<li>Volunteer Web Design/Developer (2019-present)</li>
-				</ul>
-			</section>
-		</article>
-	</main>
-
-	<footer>
-		<a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Original Lab 1</a>
-	</footer>
-
-	<?php include "inc/scripts.php"; ?>
-
-</body>
+	</body>
 
 </html>
