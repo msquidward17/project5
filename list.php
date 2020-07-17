@@ -3,7 +3,7 @@
 	<body class="container">
 		<header class="intro">
 			<a href="index.php">
-				<h1>Project 2 - Los Angeles</h1>
+				<h1>Project 3 - Los Angeles</h1>
 			</a>
 		</header>
 
