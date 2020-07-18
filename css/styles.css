@@ -77,7 +77,7 @@ Center
 .center {
 	color: white;
 	display: flex; 
-	justify-content: center;
+	justify-content: space-between;
 	flex: 100%;
 	align-items: center;
 	min-height: 90vh;
@@ -88,7 +88,6 @@ Center
 }
 .center h2, .center h3 {
 	display: block;
-	float: right;
 }
 .center img {
 	max-width: 400px;
