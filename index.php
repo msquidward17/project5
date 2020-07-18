@@ -3,23 +3,33 @@
 	<body>
 		<header class="static">
 			<div class="container">
-				<h1>Pursuing Web Development</h1>
-				<form action = "/">
-					<label for="fname">username:</label>
-					<input type="text" id="fname" name="fname" value=""><br>
-					<label for="lname">password:</label>
-					<input type="text" id="lname" name="lname" value=""><br>
-					<input type="submit" value="Login">
+				<div>
+					<h1>Pursuing Web Development</h1>
+					<div class="subtitle"> Learn about aspiring web developers and see what it takes to become one </div>
+				</div>
+				<form action = "/" class="strong-fallow">
+					<div>
+						<label for="fname">Username:</label>
+						<input type="text" id="fname" name="fname" value="">
+					</div>
+					<div>
+						<label for="lname">Password:</label>
+						<input type="text" id="lname" name="lname" value="">
+					</div>
+					<input id="login" type="submit" value="Login">
 				</form> 
 			</div>
+
 		</header>
 
 		<section class="center">
-			<div class="center-container">
-				<h2>Your adventure awaits</h2>
-				<h3>Front end web development 2020</h3>
+			<div class="container">
+				<img src="images/z-pattern.png">
+				<h2>Your Adventure Awaits!</h2>
+				<h3>Front End Web Development 2020</h3>
 			</div>
 		</section>
+		
 
 		<footer class="static">
 			<div class="container">
