@@ -23,14 +23,13 @@
 
 		<footer class="static">
 			<div class="container">
-				<section>
-					<ul>
-						<li>Learn about aspiring web developers inside and outside of CS</li>
-						<li>Discover CS courses to take to reach your programming dreams</li>
-					</ul>
-				</section>
+				<ul class="weak-fallow">
+					<li> <div> $78,279 </div> Average Web Developer Job Salary, according to Indeed.com </li>
+					<li> <div> #3 </div> Best Technology Jobs, according to U.S. News </li>
+					<li> <div> 27% </div> Job Growth for Web Developers by 2024 </li>
+				</ul>
 
-				<div> <a href="list.php"> Start Learning </a> </div>
+				<div class="terminal"> <a href="list.php"> Start Learning </a> </div>
 				<!-- <button onclick = "window.location.href='list.php'">
 					Start Learning
 				</button> -->
