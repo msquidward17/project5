@@ -9,8 +9,8 @@
 
 		<nav id="cssmenu">
 			<ul>
-				<li class="active"><a href = "">Showcase</a></li>
 				<li><a href = "index.php">Home</a></li>
+				<li class="active"><a href = "">Showcase</a></li>
 			</ul>
 		</nav>
 
