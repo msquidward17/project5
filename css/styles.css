@@ -42,6 +42,7 @@ footer.static { bottom: 0; }
 header .container, footer .container { 
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .center {
 	color: white;
@@ -74,6 +75,22 @@ ul.weak-fallow li:nth-of-type(1), ul.weak-fallow li:nth-of-type(2) {
 /*******************************
 Terminal Area
 ******************************/
-
+.terminal {
+	height: 100%;
+	margin: 0 auto;
+}
+.terminal a {
+	text-decoration: none;
+	background: #56c4cf;
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 550;
+	box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.45);
+	letter-spacing: 1px;
+}
+.terminal a:hover {
+	background: #3b878f;
+}
 
 
