@@ -7,7 +7,12 @@
 			</a>
 		</header>
 
-		<?php include "inc/nav.php"; ?>
+		<nav id="cssmenu">
+			<ul>
+				<li class="active"><a href = "/">Showcase</a></li>
+				<li><a href = "index.php">Home</a></li>
+			</ul>
+		</nav>
 
 		<main>
 			<article>
