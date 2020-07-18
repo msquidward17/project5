@@ -9,7 +9,7 @@
 
         <nav id="cssmenu">
             <ul>
-                <li class="active"><a href = "/">Leah</a></li>
+                <li class="active"><a href = "">Leah</a></li>
                 <li><a href="list.php">Showcase</a></li>
                 <li><a href="index.php">Home</a></li>
             </ul>
