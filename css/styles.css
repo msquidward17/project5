@@ -25,10 +25,15 @@ h1 {
 /*******************************
 Layout
 *******************************/
-.container {
+header .container, footer .container {
 	margin: 0 auto;
 	width: 95%;
 	max-width: 1200px;
+}
+.center .container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 800px;
 }
 .static {
 	position: fixed;
@@ -37,7 +42,7 @@ Layout
 }
 header.static { top: 0; }
 footer.static { bottom: 0; }
-header .container, footer .container, .center.container { 
+header .container, footer .container { 
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -75,23 +80,22 @@ form.strong-fallow #login:hover {
 Center
 ******************************/
 .center {
+	
+}
+.center .container {
 	color: white;
 	display: flex; 
 	justify-content: space-between;
-	flex: 100%;
 	align-items: center;
+	text-align: center;
 	min-height: 90vh;
-/*	background-image: url("../images/z-pattern.png");
+	background-image: url("../images/z-pattern.png");
 	background-repeat: no-repeat;
-	background-position: left;
-	background-size: auto 50%;*/
+	background-position: right;
+	background-size: auto 50%;
 }
-.center h2, .center h3 {
-	display: block;
-}
-.center img {
-	max-width: 400px;
-	float: left;
+.center .container div{
+	float: right;
 }
 
 /*******************************
@@ -100,16 +104,17 @@ Weak Fallow Area (Bottom Left)
 ul.weak-fallow {
 	list-style-type: none;
 	display: flex;
+	flex-wrap: wrap;
 } 
 ul.weak-fallow li {
-	padding: 0 30px 30px 30px;
+	padding: 0 30px 10px 30px;
 	max-width: 225px;
 	text-align: center;
 }
 ul.weak-fallow div {
 	color: #3b878f;
-	margin: 20px;
-	font-size: 25px;
+	margin: 15px;
+	font-size: 20px;
 }
 ul.weak-fallow li:nth-of-type(1), ul.weak-fallow li:nth-of-type(2) {
 	border-right: 1px solid #c1c1c1;

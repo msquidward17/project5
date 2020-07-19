@@ -24,9 +24,10 @@
 
 		<section class="center">
 			<div class="container">
-				<img src="images/z-pattern.png">
-				<h2>Your Adventure Awaits!</h2>
-				<h3>Front End Web Development 2020</h3>
+				<div>
+					<h2>Your Adventure Awaits!</h2>
+					<h3>Front End Web Development 2020</h3>
+				</div>
 			</div>
 		</section>
 		
