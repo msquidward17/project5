@@ -1,3 +1,4 @@
+<?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
     <body class = "student-page">
@@ -7,18 +8,19 @@
                     <h1>Leah Goodwin</h1>
                 </a>
         
-
                 <nav id="cssmenu">
-                    <ul>
-                        <li class="active"><a href = "">Leah</a></li>
-                        <li><a href="list.php">Showcase</a></li>
-                        <li><a href="index.php">Home</a></li>
-                    </ul>
+                    <div class= "container">
+                        <ul>
+                            <li class="active"><a href = "">Leah</a></li>
+                            <li><a href="list.php">Showcase</a></li>
+                            <li><a href="index.php">Home</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
 
-        <main>
+        <main class="container">
             <article>
                 <h2>A Little About Leah</h2>
                 <img src="images/me.jpg" alt="leah">
