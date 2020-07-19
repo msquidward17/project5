@@ -1,22 +1,27 @@
 <?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
-    <body class="container">
+    <body>
     	<header class="intro">
-    		<a href="index.php">
-    			<h1>Evan Pollack</h1>
-    		</a>
+            <div class="container">
+        		<a href="index.php">
+        			<h1>Evan Pollack</h1>
+        		</a>
+            </div>
     	</header>
 
     	<nav id="cssmenu">
-            <ul>
-                <li class="active"><a href = "">Evan</a></li>
-                <li><a href="list.php">Showcase</a></li>
-                <li><a href="index.php">Home</a></li>
-            </ul>
+            <div class="container">
+                <ul>
+                    <li class="active"><a href = "">Evan</a></li>
+                    <li><a href="list.php">Showcase</a></li>
+                    <li><a href="index.php">Home</a></li>
+                </ul>
+            </div>
         </nav>
 
         <main>
+            <div class="container">
             <article>
                 <h2>A Little About Evan</h2>
 
@@ -52,10 +57,13 @@
                     </ul>
                 </section>
             </article>
+            </div>
         </main>
 
         <footer>
-            <a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Original Lab 1</a>
+            <div class="container">
+                <a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Original Lab 1</a>
+            </div>
         </footer>
 
         <?php include "inc/scripts.php"; ?>
