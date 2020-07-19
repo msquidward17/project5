@@ -1,3 +1,4 @@
+<?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
 	<body class="container">
