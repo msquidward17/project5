@@ -5,7 +5,7 @@
 		<header class="intro">
 			<div class="container">
 				<a href="index.php">
-					<h1>Project 3 - Los Angeles</h1>
+					<h1>Pursuing Web Development </h1>
 				</a>
 			</div>
 		</header>
@@ -31,8 +31,7 @@
 							<img src="images/me.jpg" alt="leah selfie">
 							<div class="goal">
 								<h3>Leah Goodwin</h3>
-								<p>Goal for Computer Science: To pursue a career in
-								Front-End Web Development and Video Game Development. </p>
+								<p>Goal for Computer Science: To pursue a career in Front-End Web Development and Video Game Development. </p>
 							</div>
 						</div>
 
@@ -48,8 +47,7 @@
 							<img src="images/self.jpg" alt="evan selfie">
 							<div class='goal'>
 								<h3>Evan Pollack</h3>
-								<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and
-								computer science principles.</p>
+								<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and computer science principles.</p>
 							</div>
 						</div>
 							<div class="links">

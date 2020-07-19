@@ -107,8 +107,27 @@ article section img {
 	float: left;
 	margin-right: 20px;
 }
+/*******************************
+	Webpage Links Styles
+*******************************/
 article section .links a{
 	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 12px;
+	margin: 15px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid black;
+}
+article section .links a:first-of-type {
+	background-color: #a5cd39;
+}
+article section .links a:first-of-type:hover {
+	background-color: #7da611;
+}
+article section .links a:last-of-type:hover {
+	background-color: #e8e8e8;
 }
 article section .links {
 	margin-right: 20px;

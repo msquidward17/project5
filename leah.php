@@ -8,18 +8,9 @@
                     <h1>Leah Goodwin</h1>
                 </a>
         
-                <nav id="cssmenu">
-                    <div class= "container">
-                        <ul>
-                            <li class="active"><a href = "">Leah</a></li>
-                            <li><a href="list.php">Showcase</a></li>
-                            <li><a href="index.php">Home</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                
             </div>
         </header>
-
         <main>
             <article  class="container glayout">
                 
@@ -57,7 +48,9 @@
         </main>
 
         <footer>
-            <a href="http://csc174.org/lab01/lgoodwi3/" target="_blank" class="leah">Leah's Original Site</a>
+        	<div class="container"
+          		<a href="http://csc174.org/lab01/lgoodwi3/" target="_blank" class="leah">Leah's Original Site</a>
+      	    </div>
         </footer>
 
         <?php include "inc/scripts.php"; ?>
