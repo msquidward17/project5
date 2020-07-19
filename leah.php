@@ -48,7 +48,7 @@
         </main>
 
         <footer>
-        	<div class="container"
+        	<div class="container">
           		<a href="http://csc174.org/lab01/lgoodwi3/" target="_blank" class="leah">Leah's Original Site</a>
       	    </div>
         </footer>

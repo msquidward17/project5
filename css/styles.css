@@ -51,7 +51,7 @@ Layout Styles
 .glayout{
 	display: grid;
 	grid-template-columns: repeat(13, minmax(0, 1fr));
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto;
 	grid-gap: 20px;
 }
 
@@ -140,7 +140,8 @@ Student Page Styles
 	margin-bottom:0px;
 	display:block;
 	padding: 30px;
-	border-radius: 20px
+	border-radius: 20px;
+	color: #FFFFFF;
 }
 
 .intro{
@@ -148,6 +149,7 @@ Student Page Styles
 	grid-row: 1/3;
 	text-align: center;
 	background-color: #F48245;
+	margin-top: 20px;
 }
 
 .intro p{
@@ -158,6 +160,7 @@ Student Page Styles
 	grid-column: 6/14;
 	grid-row: 1/3;
 	background-color: #F5928C;
+	margin-top: 20px;
 }
 
 .courses{
@@ -174,6 +177,5 @@ Student Page Styles
 .propic{
 	float: none;
 	display: block;
+	margin: auto;
 }
-
-
