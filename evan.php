@@ -23,21 +23,12 @@
 
                 <section>
                     <h3>Introduction</h3>
-                    <p>I am a student at the University of Rochester, which is located in Rochester, NY. My major is
-                        undecided, but I plan on minoring in computer science. I grew up in the Washington D.C. area. I
-                        have also been involved in extracurricular activities such as running competitively and
-                        snowboarding. In my free time, I enjoy activities such as hiking, biking, and kayaking.</p>
+                    <p>I am a student at the University of Rochester, which is located in Rochester, NY. My major is undecided, but I plan on minoring in computer science. I grew up in the Washington D.C. area. I have also been involved in extracurricular activities such as running competitively and snowboarding. In my free time, I enjoy activities such as hiking, biking, and kayaking.</p>
                 </section>
 
                 <section>
                     <h3>Early Life</h3>
-                    <p>I was born in Washington D.C. but have always lived in Maryland with my parents
-                        and two younger brothers, who are twins. During the first 10 years of my life, my family and I
-                        lived in Bethesda, MD. While living there, I attended Rosemary Hills Elementary
-                        School. In 2009, my family and I moved further out from D.C. to Sandy Spring, MD. After the move,
-                        I attended Barrie School and James Hubert Blake High School. During high school, my interest in
-                        STEM grew, leading me to explore many subjects. Out of the courses I took during those 4 years,
-                        AP Computer Science piqued my interest the most, inspiring me to pursue it in college.</p>
+                    <p>I was born in Washington D.C. but have always lived in Maryland with my parents and two younger brothers, who are twins. During the first 10 years of my life, my family and I lived in Bethesda, MD. While living there, I attended Rosemary Hills Elementary School. In 2009, my family and I moved further out from D.C. to Sandy Spring, MD. After the move, I attended Barrie School and James Hubert Blake High School. During high school, my interest in STEM grew, leading me to explore many subjects. Out of the courses I took during those 4 years, AP Computer Science piqued my interest the most, inspiring me to pursue it in college.</p>
                 </section>
 
                 <section>
