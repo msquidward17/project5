@@ -23,18 +23,12 @@
 
 				<section>
 					<h3>Introduction</h3>
-					<p>I am a Web Developer majoring in CS at the Univeristy of Rochester. I am interested in Front-end Web Development.
-						I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js
-						interacting with database from Mongoose, MongoDB.</p>
+					<p>I am a Web Developer majoring in CS at the Univeristy of Rochester. I am interested in Front-end Web Development. I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js, interacting with database from Mongoose, MongoDB.</p>
 				</section>
 
 				<section>
 					<h3>Early Life</h3>
-					<p>I was born in Shanghai,China. I have been living in Shanghai for the first 18 years of my life.
-						And then my dad decided to send me abroad to broaden my horizon. So he sent me to an international
-						high school in China and then I came to the US. I did not really like SAT and TOEFL but I spent a great
-						amount of time making my essay interesting. And that essay is how I got into Rochester and I like
-						the snow in Rochester a lot! (Although many people might not agree with me, Rochester is very pretty in my mind).</p>
+					<p>I was born in Shanghai,China. I have been living in Shanghai for the first 18 years of my life. And then my dad decided to send me abroad to broaden my horizon. So he sent me to an international high school in China and then I came to the US. I did not really like SAT and TOEFL but I spent a great amount of time making my essay interesting. And that essay is how I got into Rochester and I like the snow in Rochester a lot! (Although many people might not agree with me, Rochester is very pretty in my mind).</p>
 
 				</section>
 

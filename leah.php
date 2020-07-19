@@ -1,19 +1,22 @@
 <?php include "inc/html-top.php";?>
 
-    <body class="container">
-        <header class="intro">
-            <a href="index.php">
-                <h1>Leah Goodwin</h1>
-            </a>
-        </header>
+    <body class = "student-page">
+        <header class="static">
+            <div class = "container">
+                <a href="index.php">
+                    <h1>Leah Goodwin</h1>
+                </a>
+        
 
-        <nav id="cssmenu">
-            <ul>
-                <li class="active"><a href = "">Leah</a></li>
-                <li><a href="list.php">Showcase</a></li>
-                <li><a href="index.php">Home</a></li>
-            </ul>
-        </nav>
+                <nav id="cssmenu">
+                    <ul>
+                        <li class="active"><a href = "">Leah</a></li>
+                        <li><a href="list.php">Showcase</a></li>
+                        <li><a href="index.php">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
         <main>
             <article>
@@ -21,25 +24,12 @@
                 <img src="images/me.jpg" alt="leah">
                 <section>
                     <h3>Introduction</h3>
-                    <p>I'm currently a student at the University of Rochester, class of 2021.
-                        I'm majoring in Computer Science with a focus in Human Computer Interaction.
-                        I'm also minoring in International Relations. When I'm not busy building
-                        complex worlds, I like to write and draw in my spare time. My main goal is to
-                        pursue a career in the "creative side" of computer science, more specifically
-                        Front-End Web Development and Video Game Development.</p>
+                    <p>I'm currently a student at the University of Rochester, class of 2021. I'm majoring in Computer Science with a focus in Human Computer Interaction. I'm also minoring in International Relations. When I'm not busy building complex worlds, I like to write and draw in my spare time. My main goal is to pursue a career in the "creative side" of computer science, more specifically Front-End Web Development and Video Game Development.</p>
                 </section>
 
                 <section>
                     <h3>Early Life</h3>
-                    <p>Ever since I was young, I've had a natural affinity for writing, creative
-                        writing specifically. So I spent years creating complex worlds and figuring out how
-                        they would operate if it was the setting for a video game. It wasn't until I
-                        was introduced to the book series "The 39 Clues" that I realized how websites
-                        could be used as a medium for creativity. The series had a website dedicated
-                        to expanding the world presented inside the book in ways I had never seen before,
-                        with games, puzzles and an overall interactive website that engaged users.
-                        It was then that I started writing designs for websites for worlds I created, thus
-                        marking my start into being interested in visual media.</p>
+                    <p>Ever since I was young, I've had a natural affinity for writing, creative writing specifically. So I spent years creating complex worlds and figuring out how they would operate if it was the setting for a video game. It wasn't until I was introduced to the book series "The 39 Clues" that I realized how websites could be used as a medium for creativity. The series had a website dedicated to expanding the world presented inside the book in ways I had never seen before, with games, puzzles and an overall interactive website that engaged users. It was then that I started writing designs for websites for worlds I created, thus marking my start into being interested in visual media.</p>
                 </section>
 
                 <section>
