@@ -1,71 +1,83 @@
+<?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
-	<body class="container">
+	<body>
 		<header class="intro">
-			<a href="index.php">
-				<h1>Project 3 - Los Angeles</h1>
-			</a>
+			<div class="container">
+				<a href="index.php">
+					<h1>Project 3 - Los Angeles</h1>
+				</a>
+			</div>
 		</header>
 
 		<nav id="cssmenu">
-			<ul>
-				<li><a href = "index.php">Home</a></li>
-				<li class="active"><a href = "">Showcase</a></li>
-			</ul>
+			<div class="container">
+				<ul>	
+					<li class="active"><a href = "#">Showcase</a></li>
+					<li><a href = "index.php" > Home </a></li>
+				</ul>
+			</div>
 		</nav>
 
 		<main>
-			<article>
-				<h2>Our Group</h2>
+			<div class="container">
+				
 
-				<section class="article part1">
-					<h3>Leah Goodwin</h3>
+				<article>
+					<h2>Our Group</h2>
 
-					<img src="images/me.jpg" alt="leah selfie">
+					<section class="article part1">
 
-					<p>Goal for Computer Science: To pursue a career in
-						Front-End Web Development and Video Game Development. </p>
+						<img src="images/me.jpg" alt="leah selfie">
+						<div class="goal">
+							<h3>Leah Goodwin</h3>
+							<p>Goal for Computer Science: To pursue a career in
+							Front-End Web Development and Video Game Development. </p>
+						</div>
 
-					<div>
-						<a href="leah.php" class="leah">Leah's Page</a>
+						<div class='goal'>
+							<a href="leah.php" class="leah">Leah's Page</a>
 
-						<a href="http://csc174.org/lab01/lgoodwi3/" class="leah">Leah's Lab 1</a>
-					</div>
-				</section>
+							<a href="http://csc174.org/lab01/lgoodwi3/" class="leah">Leah's Lab 1</a>
+						</div>
+					</section>
 
-				<section class="article part2">
-					<h3>Evan Pollack</h3>
+					<section class="article part2">
 
-					<img src="images/self.jpg" alt="evan selfie">
+						<img src="images/self.jpg" alt="evan selfie">
+						<div class='goal'>
+							<h3>Evan Pollack</h3>
+							<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and
+							computer science principles.</p>
+						</div>
+						<div>
+							<a href="evan.php" class="evan">Evan's Page</a>
 
-					<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and
-						computer science principles.</p>
+							<a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Lab 1</a>
+						</div>
+					</section>
 
-					<div>
-						<a href="evan.php" class="evan">Evan's Page</a>
+					<section class="article part3">
+						<img src="images/girl.png" alt="girl">
+						<div class='goal'>
+							<h3>Dan Zhang</h3>
+							<p>Goal for Computer Science: To pursue a career in Front-End Web Development. </p>
+						</div>
 
-						<a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Lab 1</a>
-					</div>
-				</section>
+						<div>
+							<a href="dan.php" class="dan">Dan's Page</a>
 
-				<section class="article part3">
-					<h3>Dan Zhang</h3>
-
-					<img src="images/girl.png" alt="girl">
-
-					<p>Goal for Computer Science: To pursue a career in Front-End Web Development. </p>
-
-					<div>
-						<a href="dan.php" class="dan">Dan's Page</a>
-
-						<a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Lab 1</a>
-					</div>
-				</section>
-			</article>
+							<a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Lab 1</a>
+						</div>
+					</section>
+				</article>
+			</div>
 		</main>
 
 		<footer>
-			<p>Project 2 - Los Angeles</p>
+			<div class="container">
+				<p>Project 3 - Los Angeles</p>
+			</div>
 		</footer>
 
 		<?php include "inc/scripts.php"; ?>

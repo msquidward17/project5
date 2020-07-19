@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/index-styles.css">
 <?php include "inc/html-top.php";?>
 
 	<body>

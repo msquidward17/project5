@@ -6,141 +6,97 @@ Basic Styles
 *******************************/
 body {
 	margin: 0;
-	background-color: #0e304c;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 }
 header {
-	background-color: white;
+	background-color: #0e304c;
 	border-bottom: 7px solid #56c4cf;
-	display: block;
 }
 footer {
-	background-color: white;
+	background-color: #0e304c;
+	color: white;
 	border-top: 7px solid #56c4cf;
-	display: block;
+	margin-top: 10px;
 }
 h1 {
 	font-family: 'Roboto Slab', serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-/*******************************
-Layout
-*******************************/
-header .container, footer .container {
-	margin: 0 auto;
-	width: 95%;
-	max-width: 1200px;
-}
-.center .container {
-	margin: 0 auto;
-	width: 95%;
-	max-width: 800px;
-}
-.static {
-	position: fixed;
-	left: 0;
-	width: 100%;
-}
-header.static { top: 0; }
-footer.static { bottom: 0; }
-header .container, footer .container { 
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-/*******************************
-Primary (Top Left)
-******************************/
-.subtitle {
-	margin-bottom: 20px;
-}
-/*******************************
-Strong Fallow Area (Top Right)
-******************************/
-form.strong-fallow {
-	display: flex;
-}
-form.strong-fallow label {
-	display: block;
-	margin-bottom: 5px;
-}
-form.strong-fallow div {
-	padding-right: 30px;
-} 
-form.strong-fallow #login {
-	background-color: white;
-	border-radius: 5px;
-	border-color: #3b878f;
-	color: #3b878f;
-	transition-duration: 0.4s;
-}
-form.strong-fallow #login:hover {
-	background-color: #e8e8e8;
-}
-/*******************************
-Center
-******************************/
-.center {
-	
-}
-.center .container {
-	color: white;
-	display: flex; 
-	justify-content: space-between;
-	align-items: center;
-	text-align: center;
-	min-height: 90vh;
-	background-image: url("../images/z-pattern.png");
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: auto 50%;
-}
-.center .container div{
-	float: right;
-}
-
-/*******************************
-Weak Fallow Area (Bottom Left)
-******************************/
-ul.weak-fallow {
-	list-style-type: none;
-	display: flex;
-	flex-wrap: wrap;
-} 
-ul.weak-fallow li {
-	padding: 0 30px 10px 30px;
-	max-width: 225px;
-	text-align: center;
-}
-ul.weak-fallow div {
-	color: #3b878f;
-	margin: 15px;
-	font-size: 20px;
-}
-ul.weak-fallow li:nth-of-type(1), ul.weak-fallow li:nth-of-type(2) {
-	border-right: 1px solid #c1c1c1;
-}
-
-/*******************************
-Terminal Area (Bottom Right)
-******************************/
-.terminal {
-	height: 100%;
-	margin: 0 auto;
-}
-.terminal a {
+header a {
 	text-decoration: none;
-	background: #56c4cf;
-	padding: 20px;
-	border-radius: 5px;
 	color: white;
-	font-weight: 500;
-	letter-spacing: 1px;
-	transition-duration: 0.4s;
-	border: 1px solid black;
 }
-.terminal a:hover {
-	background: #3b878f;
+header a:hover {
+	color: #c1c1c1;
+}
+footer p {
+	margin-bottom: 0;
+	margin-top: 0px;
+	padding: 20px;
 }
 
+/*******************************
+Layout Styles
+*******************************/
+.container {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 95%;
+}
 
+/*******************************
+Breadcrumb Navigation
+*******************************/
+#cssmenu .container {
+	position: relative;
+}
+#cssmenu ul {
+    display: flex;  
+    list-style-type: none;
+    flex-direction: row-reverse;
+    margin: 10px;
+    left: 0;
+    justify-content: flex-start;
+
+}
+#cssmenu ul li a {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    padding: 12px 30px 12px 40px; /* Adjusting padding to get the proper space */
+    margin-left: -20px; /* Pull the items to the left, so the rounded right side will get over them */
+    color: white;
+    background-color: #56c4cf;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0 100px 100px 0; /* Get the right side rounded */
+    box-shadow: 17px 0px 16px 0px rgba(0,0,0,0.12);
+}
+#cssmenu ul li a:hover {
+
+}
+#cssmenu ul li:last-of-type a {
+	background-color:  #0e304c;
+}
+/*******************************
+F pattern Styles
+*******************************/
+article h2 {
+	display: block;
+	border-bottom: 1px solid #c1c1c1;
+	justify-content: space-between;
+}
+article section {
+	width: 100%;
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+article section .goal {
+	padding-right: 20px;
+	padding-left: 20px;
+}
