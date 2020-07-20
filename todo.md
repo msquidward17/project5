@@ -1,21 +1,21 @@
 # To Do:
-- [] Z-pattern homepage implemented
-  - [] Links to F-pattern page
-  - [] replicated chosen wireframe
-- [] F-pattern student list page implemented
-  - [] links to student pages
-  - [] replicated chosen wireframe
-- [] Working navigation menu with menu highlighter
-- [] 3 student webpages design is ok (have to use existeng css)
+- [X] Z-pattern homepage implemented
+  - [X] Links to F-pattern page
+  - [X] replicated chosen wireframe
+- [X] F-pattern student list page implemented
+  - [X] links to student pages
+  - [X] replicated chosen wireframe
+- [X] Working navigation menu with menu highlighter
+- [X] 3 student webpages design is ok (have to use existeng css)
   - [] CRAP design principles
     - [] Contrast
     - [] Repetition
     - [] Alignment
     - [] Proximity
-  - [] Typography and typefaces
-  - [] some sort of consistent layout
+  - [X] Typography and typefaces
+  - [X] some sort of consistent layout
 - [] documented design changes in readme.md
-- [] implemented css architecture
+- [X] implemented css architecture
 - [] html code vildated for all 5 pages
 - [] css code validated
 - [] uploaded only website files to bluehost
