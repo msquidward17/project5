@@ -72,7 +72,6 @@ form.strong-fallow #login {
 	border-radius: 5px;
 	border-color: #3b878f;
 	color: #3b878f;
-	transition-duration: 0.4s;
 }
 form.strong-fallow #login:hover {
 	background-color: #e8e8e8;
@@ -136,7 +135,6 @@ Terminal Area (Bottom Right)
 	color: white;
 	font-weight: 500;
 	letter-spacing: 1px;
-	transition-duration: 0.4s;
 	border: 1px solid black;
 }
 .terminal a:hover {

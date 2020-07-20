@@ -1,8 +1,8 @@
 <?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
-	<body>
-		<header class="intro">
+	<body class="list">
+		<header >
 			<div class="container">
 				<a href="index.php">
 					<h1>Pursuing Web Development </h1>
@@ -13,7 +13,7 @@
 		<nav id="cssmenu">
 			<div class="container">
 				<ul>	
-					<li class="active"><a href = "#">Showcase</a></li>
+					<li class="current"> Showcase </li>
 					<li><a href = "index.php" > Home </a></li>
 				</ul>
 			</div>

@@ -11,7 +11,7 @@
     	<nav id="cssmenu">
             <div class="container">
                 <ul>
-                    <li class="active"><a href = "#">Evan</a></li>
+                    <li class="current"> Evan </li>
                     <li><a href="list.php">Showcase</a></li>
                     <li><a href="index.php">Home</a></li>
                 </ul>

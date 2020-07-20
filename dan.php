@@ -10,7 +10,7 @@
 		<nav id="cssmenu">
 			<div class="container">
 	            <ul>
-	                <li class="active"><a href = "#">Dan</a></li>
+	                <li class="current">Dan</li>
 	                <li><a href="list.php">Showcase</a></li>
 	                <li><a href="index.php">Home</a></li>
 	            </ul>
