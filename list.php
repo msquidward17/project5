@@ -44,7 +44,7 @@
 
 					<section class="article part2">
 						<div class="left-flex">
-							<img src="images/self.jpg" alt="evan selfie">
+							<img src="images/self.png" alt="evan selfie">
 							<div class='goal'>
 								<h3>Evan Pollack</h3>
 								<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and computer science principles.</p>

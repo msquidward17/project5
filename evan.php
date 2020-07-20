@@ -21,7 +21,7 @@
         <main>
             <article class = "gcontainer glayout">
                 <section class = "intro boxy">
-                    <img class = "propic" src="images/self.jpg" alt="me">
+                    <img class = "propic" src="images/self.png" alt="me">
                     <p>I am a student at the University of Rochester, which is located in Rochester, NY. My major is undecided, but I plan on minoring in computer science. I grew up in the Washington D.C. area. I have also been involved in extracurricular activities such as running competitively and snowboarding. In my free time, I enjoy activities such as hiking, biking, and kayaking.</p>
                 </section>
 
