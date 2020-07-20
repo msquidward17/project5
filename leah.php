@@ -4,18 +4,23 @@
     <body class = "student-page">
         <header class="static">
             <div class = "container">
-                <a href="index.php">
-                    <h1>Leah Goodwin</h1>
-                </a>
-        
-                
+                <h1>Leah Goodwin</h1>
             </div>
         </header>
+        <nav id="cssmenu">
+            <div class="container">
+                <ul>    
+                    <li class="active"><a href = '#'>Leah</a></li>
+                    <li><a href = "list.php">Showcase</a></li>
+                    <li><a href = "index.php" > Home </a></li>
+                </ul>
+            </div>
+        </nav>
         <main>
-            <article  class="container glayout">
+            <article  class="gcontainer glayout">
                 
                 <section class = "intro boxy">
-                    <img class  = "propic" src="images/me.jpg" alt="leah">
+                    <img class  = "propic reverse" src="images/me.jpg" alt="leah">
                     <p>I'm currently a student at the University of Rochester, class of 2021. I'm majoring in Computer Science with a focus in Human Computer Interaction. I'm also minoring in International Relations. When I'm not busy building complex worlds, I like to write and draw in my spare time. My main goal is to pursue a career in the "creative side" of computer science, more specifically Front-End Web Development and Video Game Development.</p>
                 </section>
 
@@ -47,14 +52,11 @@
             </article>
         </main>
 
-        <footer>
+        <footer class = "foo">
         	<div class="container">
-          		<a href="http://csc174.org/lab01/lgoodwi3/" target="_blank" class="leah">Leah's Original Site</a>
+          		<a href="http://csc174.org/lab01/lgoodwi3/" target="_blank" class="leah">Leah's Original Lab 1</a>
       	    </div>
         </footer>
-
         <?php include "inc/scripts.php"; ?>
-
     </body>
-
 </html>

@@ -1,19 +1,16 @@
 <?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
-	<body>
-		<header class="intro">
+	<body class = "student-page">
+		<header class="static">
 			<div class="container">
-				<a href="index.php">
 					<h1>Dan Zhang</h1>
-				</a>
 			</div>
 		</header>
-
 		<nav id="cssmenu">
 			<div class="container">
 	            <ul>
-	                <li class="active"><a href = "">Dan</a></li>
+	                <li class="active"><a href = "#">Dan</a></li>
 	                <li><a href="list.php">Showcase</a></li>
 	                <li><a href="index.php">Home</a></li>
 	            </ul>
@@ -21,26 +18,20 @@
         </nav>
 
 		<main>
-			<div class="container">
-				<article>
-					<h2>A Little About Dan</h2>
-
-					<img src="images/girl.png" alt="dan">
-
-					<section>
-						<h3>Introduction</h3>
+				<article class = "gcontainer glayout">
+					<section class = "intro boxy">
+						<img class = "propic" src="images/girl.png" alt="dan">
 						<p>I am a Web Developer majoring in CS at the Univeristy of Rochester. I am interested in Front-end Web Development. I have intern experience developing Front-end in React-redux, Next.js and back-end in node.js, feathers.js, interacting with database from Mongoose, MongoDB.</p>
 					</section>
 
-					<section>
-						<h3>Early Life</h3>
+					<section class = "elife boxy">
+						<h2>Early Life</h2>
 						<p>I was born in Shanghai,China. I have been living in Shanghai for the first 18 years of my life. And then my dad decided to send me abroad to broaden my horizon. So he sent me to an international high school in China and then I came to the US. I did not really like SAT and TOEFL but I spent a great amount of time making my essay interesting. And that essay is how I got into Rochester and I like the snow in Rochester a lot! (Although many people might not agree with me, Rochester is very pretty in my mind).</p>
 
 					</section>
 
-					<section>
-						<h3>Relevant CS Coursework</h3>
-
+					<section class = "courses boxy">
+						<h2>Relevant CS Coursework</h2>
 						<ul>
 							<li>CSC 170: Intro to Web Development</li>
 							<li>CSC 171: Intro to Computing Science</li>
@@ -51,21 +42,19 @@
 						</ul>
 					</section>
 
-					<section>
-						<h3>Extracurricular Activities</h3>
-
+					<section class = "extrac boxy">
+						<h2>Extracurricular Activities</h2>
 						<ul>
-							<li>Note taking for disability resources (2019-present)</li>
-							<li>Volunteer Web Design/Developer (2019-present)</li>
+							<li>Note taking for disability resources (2019 - Present)</li>
+							<li>Volunteer Web Design/Developer (2019 - Present)</li>
 						</ul>
 					</section>
 				</article>
-			</div>
 		</main>
 
-		<footer>
+		<footer class = "foo">
 			<div class="container">
-				<a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Original Lab 1</a>
+				<a href="http://csc174.org/lab01/dzhang29/" target = "_blank" class="dan">Dan's Original Lab 1</a>
 			</div>
 		</footer>
 
