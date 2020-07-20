@@ -4,7 +4,7 @@
 - Jack Mandell
 - Qi Miao
 
-## Design Decesions ##
+## Design Decisions ##
 ### Theme
 Web Development. Suitable colors for this theme are dark blue, and white as primary colors, light blue, orange, light pink, and indigo as secondary colors, with simple layouts and navigation.
 ### Navigation
@@ -17,7 +17,7 @@ Going with the web development theme, slab-serif typefaces were selected. Roboto
 - a block layout is used for index and showcase pages, and a grid layout is used for student pages
 ### Misc.
 - for student pages, a z-ish layout is used with the more contrasting box colors (orange and light indigo) used for the strong follow regions
-- in stuent pages, the opacity of all content is set to 90-95% so that the light colors of the boxes are less interrupted without compromising the legibility
+- in student pages, the opacity of all content is set to 90-95% so that the light colors of the boxes are less interrupted without compromising the legibility
 ## Classes and relationships (from forked repository)
 Classes:
 - Student has
