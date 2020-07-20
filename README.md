@@ -3,6 +3,12 @@
 - Jaafar Al Hadab
 - Jack Mandell
 - Qi Miao
+
+## Design Decesions:
+### Z-Layout Index Page
+### F-Layout Showcase Page
+### Individual Student Pages
+- 
 ## Classes and relationships (from forked repository)
 Classes:
 - Student has
@@ -17,3 +23,4 @@ Classes:
 
 ## Choreography (from forked repository)
 For choreography, the pages follow one another by last name. This is for simplicity. On each student page, the layout goes by introduction, early life, cs coursework and extracirrculars. This is to show who each of us are as a person before diving in technically to see each of our individual skills.
+
