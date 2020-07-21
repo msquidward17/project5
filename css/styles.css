@@ -136,7 +136,7 @@ article section .links a {
 	border: 1px solid black;
 }
 article section .links a:first-of-type {
-	background-color: #f48245;
+	background-color: #da5c18e0;
 	color: white;
 }
 article section .links a:first-of-type:hover {
@@ -171,14 +171,14 @@ Student Page Styles
 
 .boxy p{
 	opacity: 95%;
-	line-height: 500%;
+	line-height: 150%;
 }
 
 .intro{
 	grid-column: 1/6;
 	grid-row: 1/3;
 	text-align: center;
-	background-color: #F48245;
+	background-color: #e49062;
 	margin-top: 20px;
 }
 
@@ -189,20 +189,20 @@ Student Page Styles
 .elife{
 	grid-column: 6/14;
 	grid-row: 1/3;
-	background-color: #F5928C;
+	background-color: #e69893;
 	margin-top: 20px;
 }
 
 .courses{
 	grid-column: 6/14;
 	grid-row: 3/4;
-	background-color: #7670B2;
+	background-color: #78749c;
 }
 
 .extrac{
 	grid-column: 1/6;
 	grid-row:3/4;
-	background-color: #A37275;
+	background-color: #9c7174;
 	
 }
 .propic{
