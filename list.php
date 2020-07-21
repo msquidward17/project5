@@ -31,7 +31,7 @@
 							<img src="images/me.jpg" alt="leah selfie">
 							<div class="goal">
 								<h3>Leah Goodwin</h3>
-								<p>Goal for Computer Science: To pursue a career in Front-End Web Development and Video Game Development. </p>
+								<p>Goal for Computer Science: To pursue a career in Front-End Web Development and Video Game Development.</p>
 							</div>
 						</div>
 
@@ -60,9 +60,9 @@
 					<section class="article part3">
 						<div class="left-flex">
 							<img src="images/girl.png" alt="girl">
-							<div class='goal'>
+							<div class='dansgoal'>
 								<h3>Dan Zhang</h3>
-								<p>Goal for Computer Science: To pursue a career in Front-End Web Development. </p>
+								<p>Goal for Computer Science: To pursue a career in Front-End Web Development.</p>
 							</div>
 						</div>
 							<div class="links">

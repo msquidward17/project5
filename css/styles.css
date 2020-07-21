@@ -109,9 +109,15 @@ article section {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
-	align-items: center;
+	align-items: center;	
 
 }
+
+article section .dansgoal {
+	white-space: nowrap;
+
+}
+
 article section img {
 	float: left;
 	margin-right: 20px;
@@ -165,6 +171,7 @@ Student Page Styles
 
 .boxy p{
 	opacity: 95%;
+	line-height: 500%;
 }
 
 .intro{
