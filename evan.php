@@ -41,7 +41,7 @@
                 </section>
 
                 <section class = "extrac boxy">
-                    <h2>Extracurricular Activities</h2>
+                    <h2>Activities</h2>
                     <ul>
                         <li>Member of ΣΦΕ (2019-Present)</li>
                         <li>Snowboarding (2012-Present)</li>

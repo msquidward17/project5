@@ -43,7 +43,7 @@
 					</section>
 
 					<section class = "extrac boxy">
-						<h2>Extracurricular Activities</h2>
+						<h2>Activities</h2>
 						<ul>
 							<li>Note taking for disability resources (2019 - Present)</li>
 							<li>Volunteer Web Design/Developer (2019 - Present)</li>

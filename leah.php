@@ -42,7 +42,7 @@
                 </section>
 
                 <section class = "extrac boxy">
-                    <h2>Extracurricular Activities</h2>
+                    <h2>Activities</h2>
                     <ul>
                         <li>Archery (2018-Present)</li>
                         <li>Table Tennis (2018-Present)</li>
