@@ -16,7 +16,7 @@ Going with the web development theme, slab-serif typefaces were selected. Roboto
 - content container at a width ratio to the viewport of ~1:1.6
 - a block layout is used for index and showcase pages, and a grid layout is used for student pages
 ### Misc.
-- for student pages, a z-ish layout is used with the more contrasting box colors (orange and light indigo) used for the strong follow regions
+- for student pages, a z-ish layout is used with the sedondary theme colors of web development
 - in student pages, the opacity of all content is set to 90-95% so that the light colors of the boxes are less interrupted without compromising the legibility
 ## Classes and relationships (from forked repository)
 Classes:
