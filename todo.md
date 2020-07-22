@@ -7,14 +7,14 @@
   - [X] replicated chosen wireframe
 - [X] Working navigation menu with menu highlighter
 - [X] 3 student webpages design is ok (have to use existeng css)
-  - [] CRAP design principles
-    - [] Contrast
-    - [] Repetition
-    - [] Alignment
-    - [] Proximity
+  - [X] CRAP design principles
+    - [X] Contrast
+    - [X] Repetition
+    - [X] Alignment
+    - [X] Proximity
   - [X] Typography and typefaces
   - [X] some sort of consistent layout
-- [] documented design changes in readme.md
+- [X] documented design changes in readme.md
 - [X] implemented css architecture
 - [] html code vildated for all 5 pages
 - [] css code validated
