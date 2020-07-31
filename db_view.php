@@ -17,6 +17,7 @@ include('inc/db_connect.php');
 $result = mysqli_query($connection, "SELECT * FROM students");
 ?>
 
+<h1>Student List</h1>
 <div>
 <table border>
   <tr>

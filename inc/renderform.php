@@ -7,7 +7,7 @@ function renderForm($id, $firstname, $lastname, $description, $img, $link, $erro
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Phone list</title>
+	<title>Student list</title>
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/override.css">
@@ -19,6 +19,7 @@ if ($error != '') {
 	echo '<div style="padding:4px; border:1px solid red; color:red;">'.$error.'</div>';
 }
 ?>
+<h1>Edit Student List Here</h1>
 <div>
 <form action="" method="post">
 	<input type="hidden" name="id" value="<?php echo $id; ?>">
