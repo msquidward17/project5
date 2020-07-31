@@ -1,0 +1,68 @@
+body {
+	margin: 1em;
+	color: #163440;
+	display: grid;
+	grid-template-columns: 20% auto 20%;
+}
+
+body > * {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+form { 
+	display: grid;
+	grid-template-columns: 7em auto;
+}
+
+form > label {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+form > input {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+form > div, form > input[type=submit] {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+form > div {
+	text-align: right;
+}
+
+form > input[type=file] {
+	background-color: #ffffff;
+	border: 1px solid #595959;
+}
+
+body > div {
+	padding: 1em;
+	background-color: #97C377;
+}
+
+th, td {
+	padding: 6px 15px 6px 15px;
+}
+
+th {
+	background-color: #CCDA9A;
+	text-align: center;
+}
+
+td {
+	background-color: #ffffff;
+}
+
+a {
+	color: #699FB5;
+	background-color: #ffffff;
+	padding: 2px 5px 2px 5px;
+}
+
+table a {
+	background-color: #CCDA9A;		
+}
