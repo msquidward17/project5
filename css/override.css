@@ -1,14 +1,14 @@
 body {
 	margin: 1em;
 	color: #163440;
-	display: grid;
+	/**display: grid;**/
 	grid-template-columns: 20% auto 20%;
 }
 
-body > * {
+/**body > * {
 	grid-column-start: 2;
 	grid-column-end: 2;
-}
+}**/
 
 form { 
 	display: grid;
@@ -65,4 +65,19 @@ a {
 
 table a {
 	background-color: #CCDA9A;		
+}
+
+.navbar-light .navbar-brand{
+	color: black;
+	
+}
+
+.bg-light{
+	background-color: #0e304c;
+}
+
+.navbar{
+border-bottom: 7px solid #56c4cf;
+background-color: #0e304c;
+color: black;
 }
