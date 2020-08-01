@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 body {
 	margin: 1em;
 	color: #163440;
-	display: grid;
+	/**display: grid;**/
 	grid-template-columns: 20% auto 20%;
 }
 
-body > * {
+/**body > * {
 	grid-column-start: 2;
 	grid-column-end: 2;
-}
+}**/
 
 form { 
 	display: grid;
@@ -41,7 +45,7 @@ form > input[type=file] {
 
 body > div {
 	padding: 1em;
-	background-color: #97C377;
+	background-color: #0e304c;
 }
 
 th, td {
@@ -58,11 +62,38 @@ td {
 }
 
 a {
-	color: #699FB5;
-	background-color: #ffffff;
+	color: black;
+	background: rgb(239, 239, 239);
+	border-width: 1px;
+    border-style: outset;
+	border-color: #595959;
 	padding: 2px 5px 2px 5px;
 }
 
 table a {
 	background-color: #CCDA9A;		
+}
+
+.navbar-light .navbar-brand{
+	color: black;
+
+}
+
+.bg-light{
+	background-color: #0e304c;
+}
+
+.navbar{
+border-bottom: 7px solid #56c4cf;
+background-color: #0e304c;
+color: black;
+}
+
+.bg-dark{
+	background-color: #0e304c;
+}
+
+nav, div{
+	font-family: 'Roboto', sans-serif;
+
 }
