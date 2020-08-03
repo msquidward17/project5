@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+}
+.centered-form{
+	margin-top: 15%;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+#formfooter{
+    align-content: center;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.panel-heading{
+    text-align: center;
+}
+
+.add-form {
+    /* max-width: 40%; */
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+input[type=file] {
+    display: inline;
+}
+
+#firstname, #lastname, #description, #link{
+        width: 100%;
+}
+
+.panel-default>.panel-heading {
+    background-color: #0e304c;
+    border-color: #0e304c;
+    color: whitesmoke;
+}

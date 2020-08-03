@@ -3,7 +3,7 @@
 
 
 body {
-	color: #163440;
+	color: black;
 	/**display: grid;**/
 	grid-template-columns: 20% auto 20%;
 }
@@ -157,31 +157,20 @@ footer {
 	display: block;
 	text-decoration: none;
 	padding: 10px;
-	margin: 20px;
 	margin-left: 40px;
 	margin-right: 40px;
     border-radius: 5px;
     text-align: center;
-    border: 1px solid black;
+	border: 1px solid black;
+	margin-top: 15px;
 }
 
-.dan{
-	margin-bottom: 130px;
-}
 h3{
 	font-weight: bolder;
 	padding-top: 17px;
 }
 
-@media (min-width: 992px){
-.cancel{
-    max-width: 960px;
-}}
 
-.cancel{
-	margin-right: auto;
-    margin-left: auto;
-}
 
 .kim{
 	margin: 0 auto;
