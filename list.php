@@ -3,9 +3,6 @@
 
 <?php include "inc/html-top.php";?>
 
-
-
-
 <body>
 <?php
 // connect to the database
@@ -31,64 +28,36 @@ $result = mysqli_query($connection, "SELECT * FROM students");
     </ul>
   </div>
 </nav>
-
-	
 		<main>
 			<div class="container-fluid pl-4 pr-4 kim">
 			<h2 class="line">Our Group</h2>
+			
+<?php
+// loop through results of database query, displaying them in the table
+while($row = mysqli_fetch_array( $result )) {
+?>
 				<div class="row pb-4 pt-3">
 					<div class="col text-left ml-4">
-					<img src="images/me.jpg" alt="leah selfie">
+					<img src="<?php echo $row['img']; ?>" alt="image for <?php echo $row['firstname']; ?>">
 					</div>
 
 					<div class="col-7 text-left">
-					<h3>Leah Goodwin</h3>
-								<p>Goal for Computer Science: To pursue a career in Front-End Web Development and Video Game Development.</p>
+					<h3><?php echo $row['firstname']; ?> <?php echo $row['lastname']; ?></h3>
+								<p><?php echo $row['description']; ?></p>
 					</div>
 					
 					<div class="col pt-4">
 					<a href="db_edit.php?id=<?php echo $row['id']; ?>">Edit</a>
-					<a onclick="return confirm('Are you sure you want to delete: Leah?')" href="delete.php?id=46">Delete</a>
-					<a href="leah.php" class="leah">Leah's Page</a>
+					<a onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
+					<a href="<?php echo $row['link']; ?>.php" class="page-link"><?php echo $row['firstname']; ?>'s Page</a>
 					</div>
 				</div>
-			
-
-			<div class="row pb-4">
-					<div class="col text-left ml-4">
-					<img src="images/self.png" alt="evan selfie">
-					</div>
-					<div class="col-7 text-left">
-					
-					<h3>Evan Pollack</h3>
-					<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and computer science principles.</p>
-					
-					</div>
-					<div class="col pt-4">
-					<a href="db_edit.php?id=<?php echo $row['id']; ?>">Edit</a>
-					<a onclick="return confirm('Are you sure you want to delete: Evan?')" href="delete.php?id=46">Delete</a>
-					<a href="evan.php" class="evan">Evan's Page</a>
-					</div>
-				</div>
-
-				<div class="row pb-4">
-					<div class="col text-left ml-4">
-					<img src="images/girl.png" alt="girl">
-					</div>
-					<div class="col-7 text-left ">
-					<h3>Dan Zhang</h3>
-					<p>Goal for Computer Science: To pursue a career in Front-End Web Development.</p>
-					
-					</div>
-					<div class="col pt-4">
-					<a href="db_edit.php?id=<?php echo $row['id']; ?>">Edit</a>
-					<a onclick="return confirm('Are you sure you want to delete: Dan?')" href="delete.php?id=46">Delete</a>
-					<a href="dan.php" class="dan">Dan's Page</a>
-					</div>
-
-					</div>
+<?php
+// close the loop
+}
+?>				
 				<div class="row pb-5 mb-5 d-flex justify-content-center">
-				<a class="dan" href="db_new.php">Add New Student</a>
+					<a class="dan" href="db_new.php">Add New Student</a>
 				</div>
 			</div>
 		</main>
