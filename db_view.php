@@ -17,9 +17,14 @@ include('inc/db_connect.php');
 $result = mysqli_query($connection, "SELECT * FROM students");
 ?>
 
-<h1>Student List</h1>
-<div>
-<table border>
+<nav class="navbar navbar-light bg-light">
+<span class="navbar-brand mb-0 h1 mx-auto"> 
+Student List
+  </span>
+</nav>
+
+<div  class="container-fluid container-lg p-3 my-3">
+<table class="d-flex justify-content-center">
   <tr>
     <th>First Name</th>
     <th>Last Name</th>
@@ -48,7 +53,7 @@ while($row = mysqli_fetch_array( $result )) {
 </table>
 </div>
 
-<div>
+<div class="d-flex justify-content-center">
   <br>
 	<a href="db_new.php">Add a new record</a>
 </div>
