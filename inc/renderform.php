@@ -36,12 +36,12 @@ if ($error != '') {
 								<div class="row">
 									<div class="col-xs-6 col-sm-6 col-md-6">
 										<div class="form-group">
-											<input type="text" id="firstname" name="firstname" value="<?php echo $firstname; ?>"  placeholder="First Name"><br>
+											<label for="firstname">First Name*</label><input type="text" id="firstname" name="firstname" value="<?php echo $firstname; ?>"><br>
 										</div>
 									</div>
 									<div class="col-xs-6 col-sm-6 col-md-6">
 										<div class="form-group">
-											<input type="text" id="lastname" name="lastname" value="<?php echo $lastname; ?>" placeholder="Last Name"><br>
+											<label for="lastname">Last Name*</label><input type="text" id="lastname" name="lastname" value="<?php echo $lastname; ?>"><br>
 										</div>
 									</div>
 								</div>
@@ -49,8 +49,9 @@ if ($error != '') {
 								<div class="row">
 									<div class="col-xs-12 col-sm-12 col-md-12">
 										<div class="form-group">
+											<label for="img">Image*</label>
 											<img src="<?php echo $img; ?>" alt="current image link is broken or missing" class="img-thumbnail"><br>
-											<input type="url" id="img" name="img" value="<?php echo $img; ?>" placeholder="Image"><br>
+											<input type="url" id="img" name="img" value="<?php echo $img; ?>"><br>
 										</div>
 									</div>
 								</div>
@@ -58,16 +59,16 @@ if ($error != '') {
 								<div class="row">
 									<div class="col-xs-6 col-sm-6 col-md-6">
 										<div class="form-group">
-											<input type="text" id="description" name="description" value="<?php echo $description; ?>" placeholder="Description"><br>
+											<label for="description">Description*</label><input type="text" id="description" name="description" value="<?php echo $description; ?>"><br>
 										</div>
 									</div>
 									<div class="col-xs-6 col-sm-6 col-md-6">
 										<div class="form-group">
-											<input type="url" id="link" name="link" value="<?php echo $link; ?>" placeholder="Link"><br>
+											<label for="link">Link*</label><input type="url" id="link" name="link" value="<?php echo $link; ?>"><br>
 										</div>
 									</div>
 								</div>
-								
+								* field is required
 								<input type="submit" name="submit" value="Submit" class="btn btn-info btn-block">
 								<div id="formFooter">
 									<a class="underlineHover" href="list.php">Cancel</a>
