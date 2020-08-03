@@ -6,7 +6,14 @@
 
 
 
-<body class="list">
+<body>
+<?php
+// connect to the database
+include('inc/db_connect.php');
+
+// get results from database
+$result = mysqli_query($connection, "SELECT * FROM students");
+?>
 
 <nav class="navbar navbar-light">
 <span class="navbar-brand mb-0 h1 text-white ml-5 pl-5"> 
@@ -33,12 +40,14 @@
 					<div class="col text-left ml-4">
 					<img src="images/me.jpg" alt="leah selfie">
 					</div>
+
 					<div class="col-7 text-left">
 					<h3>Leah Goodwin</h3>
 								<p>Goal for Computer Science: To pursue a career in Front-End Web Development and Video Game Development.</p>
 					</div>
+					
 					<div class="col pt-4">
-					<a href="db_edit.php">Edit</a>
+					<a href="db_edit.php?id=<?php echo $row['id']; ?>">Edit</a>
 					<a onclick="return confirm('Are you sure you want to delete: Leah?')" href="delete.php?id=46">Delete</a>
 					<a href="leah.php" class="leah">Leah's Page</a>
 					</div>
@@ -56,7 +65,7 @@
 					
 					</div>
 					<div class="col pt-4">
-					<a href="db_edit.php">Edit</a>
+					<a href="db_edit.php?id=<?php echo $row['id']; ?>">Edit</a>
 					<a onclick="return confirm('Are you sure you want to delete: Evan?')" href="delete.php?id=46">Delete</a>
 					<a href="evan.php" class="evan">Evan's Page</a>
 					</div>
@@ -72,7 +81,7 @@
 					
 					</div>
 					<div class="col pt-4">
-					<a href="db_edit.php">Edit</a>
+					<a href="db_edit.php?id=<?php echo $row['id']; ?>">Edit</a>
 					<a onclick="return confirm('Are you sure you want to delete: Dan?')" href="delete.php?id=46">Delete</a>
 					<a href="dan.php" class="dan">Dan's Page</a>
 					</div>
@@ -93,6 +102,10 @@
   <!-- Copyright -->
 
 		<?php include "inc/scripts.php"; ?>
+		<?php
+  mysqli_free_result($result);
+  mysqli_close($connection);
+?>
 	</body>
 
 </html>

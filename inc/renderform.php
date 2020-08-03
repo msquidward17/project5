@@ -30,40 +30,40 @@ if ($error != '') {
 			 			</div>
 			 			<div class="panel-body">
 						 <form action="" method="post">
-						 	<input type="hidden" name="id" value="">
+						 	<input type="hidden" name="id" value="<?php echo $id; ?>">
 			    			<div class="row">
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
-										<input type="text" id="firstname" name="firstname" value=""  placeholder="First Name"><br>
+										<input type="text" id="firstname" name="firstname" value="<?php echo $firstname; ?>"  placeholder="First Name"><br>
 			    					</div>
 			    				</div>
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
-										<input type="text" id="lastname" name="lastname" value="" placeholder="Last Name"><br>
+										<input type="text" id="lastname" name="lastname" value="<?php echo $lastname; ?>" placeholder="Last Name"><br>
 			    					</div>
 			    				</div>
 			    			</div>
 
 			    			<div class="form-group">
-								<input type="file" id="img" name="img" value=""><br>
+								<input type="file" id="img" name="img" value="<?php echo $img; ?>"><br>
 			    			</div>
 
 			    			<div class="row">
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
-										<input type="text" id="description" name="description" value="" placeholder="Description"><br>
+										<input type="text" id="description" name="description" value="<?php echo $description; ?>" placeholder="Description"><br>
 			    					</div>
 			    				</div>
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
-										<input type="texlinkt" id="link" name="link" value="" placeholder="Link"><br>
+										<input type="texlinkt" id="link" name="link" value="<?php echo $link; ?>" placeholder="Link"><br>
 			    					</div>
 			    				</div>
 			    			</div>
 			    			
-			    			<input type="submit" value="Add" class="btn btn-info btn-block">
+			    			<input type="submit" name="submit" value="Submit" class="btn btn-info btn-block">
 			    		    <div id="formFooter">
-     						 <a class="underlineHover" href="list.php">Cancel</a>
+     						 <a class="underlineHover" href="db_view.php">Cancel</a>
    							 </div>
 			    		</form>
 			    	</div>

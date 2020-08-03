@@ -6,6 +6,7 @@ body {
 	color: black;
 	/**display: grid;**/
 	grid-template-columns: 20% auto 20%;
+	font-family: 'Roboto', sans-serif;
 }
 
 /**body > * {
@@ -130,6 +131,7 @@ footer {
 	font-weight: bolder;
 	font-size: 24px;
 	padding-top: 18px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .current{
