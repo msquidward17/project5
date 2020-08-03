@@ -47,7 +47,9 @@ if ($error != '') {
 								</div>
 
 								<div class="form-group">
-									<input type="file" id="img" name="img" value="<?php echo $img; ?>"><br>
+									<img src="<?php echo $img; ?>" alt="If you can see this, the current image link is broken.">
+									<img src="<?php echo $row['img']; ?>" alt="image for <?php echo $row['firstname']; ?>">
+									<input type="url" id="img" name="img" value="<?php echo $img; ?>" placeholder="Image"><br>
 								</div>
 
 								<div class="row">
@@ -58,7 +60,7 @@ if ($error != '') {
 									</div>
 									<div class="col-xs-6 col-sm-6 col-md-6">
 										<div class="form-group">
-											<input type="texlinkt" id="link" name="link" value="<?php echo $link; ?>" placeholder="Link"><br>
+											<input type="url" id="link" name="link" value="<?php echo $link; ?>" placeholder="Link"><br>
 										</div>
 									</div>
 								</div>

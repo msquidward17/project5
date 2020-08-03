@@ -113,11 +113,6 @@ article section {
 
 }
 
-article section .dansgoal {
-	white-space: nowrap;
-
-}
-
 article section img {
 	float: left;
 	margin-right: 20px;
@@ -128,22 +123,25 @@ article section img {
 article section .links a {
 	display: block;
 	text-decoration: none;
-	color: black;
 	padding: 12px;
 	margin: 15px;
 	border-radius: 5px;
 	text-align: center;
 	border: 1px solid black;
 }
-article section .links a:first-of-type {
+article section .links .db-link {
+	background-color: #ffffff;
+	color: black;
+}
+article section .links .db-link:hover {
+	background-color: #e8e8e8;
+}
+article section .links .page-link {
 	background-color: #da5c18e0;
 	color: white;
 }
-article section .links a:first-of-type:hover {
+article section .links .page-link:hover {
 	background-color: #cf500c;
-}
-article section .links a:last-of-type:hover {
-	background-color: #e8e8e8;
 }
 article section .links {
 	margin-right: 20px;

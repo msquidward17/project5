@@ -2,6 +2,13 @@
 <?php include "inc/html-top.php";?>
 
 	<body class="list">
+<?php
+	// connect to the database
+	include('inc/db_connect.php');
+	
+	// get results from database
+	$result = mysqli_query($connection, "SELECT * FROM students");
+?>
 		<header >
 			<div class="container">
 				<a href="index.php">
@@ -25,52 +32,30 @@
 
 				<article>
 					<h2>Our Group</h2>
-
+			
+<?php
+	// loop through results of database query, displaying them in the table
+	while($row = mysqli_fetch_array( $result )) {
+?>
 					<section class="article part1">
 						<div class="left-flex">
-							<img src="images/me.jpg" alt="leah selfie">
+							<img src="<?php echo $row['img']; ?>" alt="image for <?php echo $row['firstname']; ?>">
 							<div class="goal">
-								<h3>Leah Goodwin</h3>
-								<p>Goal for Computer Science: To pursue a career in Front-End Web Development and Video Game Development.</p>
+								<h3><?php echo $row['firstname']; ?> <?php echo $row['lastname']; ?></h3>
+								<p><?php echo $row['description']; ?></p>
 							</div>
 						</div>
 
 							<div class="links">
-								<a href="leah.php" class="leah">Leah's Page</a>
-
-								<a href="http://csc174.org/lab01/lgoodwi3/" class="leah">Leah's Lab 1</a>
+								<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link">Edit</a>
+								<a href="delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link">Delete</a>
+								<a href="<?php echo $row['link']; ?>" class="page-link"><?php echo $row['firstname']; ?>'s Page</a>
 							</div>
 					</section>
-
-					<section class="article part2">
-						<div class="left-flex">
-							<img src="images/self.png" alt="evan selfie">
-							<div class='goal'>
-								<h3>Evan Pollack</h3>
-								<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and computer science principles.</p>
-							</div>
-						</div>
-							<div class="links">
-								<a href="evan.php" class="evan">Evan's Page</a>
-
-								<a href="http://csc174.org/lab01/epollack/" class="evan">Evan's Lab 1</a>
-							</div>
-					</section>
-
-					<section class="article part3">
-						<div class="left-flex">
-							<img src="images/girl.png" alt="girl">
-							<div class='dansgoal'>
-								<h3>Dan Zhang</h3>
-								<p>Goal for Computer Science: To pursue a career in Front-End Web Development.</p>
-							</div>
-						</div>
-							<div class="links">
-								<a href="dan.php" class="dan">Dan's Page</a>
-
-								<a href="http://csc174.org/lab01/dzhang29/" class="dan">Dan's Lab 1</a>
-							</div>
-					</section>
+<?php
+	// close the loop
+	}
+?>
 				</article>
 			</div>
 		</main>
