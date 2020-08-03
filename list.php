@@ -33,7 +33,7 @@
 					<div class="col text-left">
 					<img src="images/me.jpg" alt="leah selfie">
 					</div>
-					<div class="col-6 text-left">
+					<div class="col-7 text-left">
 					<h3>Leah Goodwin</h3>
 								<p>Goal for Computer Science: To pursue a career in Front-End Web Development and Video Game Development.</p>
 					</div>
@@ -47,7 +47,7 @@
 					<div class="col text-left">
 					<img src="images/self.png" alt="evan selfie">
 					</div>
-					<div class="col-6 text-left">
+					<div class="col-7 text-left">
 					
 					<h3>Evan Pollack</h3>
 					<p>Goal for Computer Science: To have a job that incorporates, but isn't limited to, web development and computer science principles.</p>
@@ -62,7 +62,7 @@
 					<div class="col text-left">
 					<img src="images/girl.png" alt="girl">
 					</div>
-					<div class="col-6 text-left">
+					<div class="col-7 text-left ">
 					<h3>Dan Zhang</h3>
 					<p>Goal for Computer Science: To pursue a career in Front-End Web Development.</p>
 					

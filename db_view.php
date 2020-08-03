@@ -53,7 +53,7 @@ while($row = mysqli_fetch_array( $result )) {
 </table>
 </div>
 
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center cancel">
   <br>
 	<a href="db_new.php">Add a new record</a>
 </div>
