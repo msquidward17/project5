@@ -47,9 +47,9 @@
 						</div>
 
 							<div class="links">
-								<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link">Edit</a>
-								<a href="delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link">Delete</a>
 								<a href="<?php echo $row['link']; ?>" class="page-link"><?php echo $row['firstname']; ?>'s Page</a>
+								<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link">Edit</a>
+								<a href="db_delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link">Delete</a>
 							</div>
 					</section>
 <?php

@@ -50,7 +50,7 @@ if (isset($_POST['submit'])) {
 			$firstname = $row['firstname'];
 			$lastname = $row['lastname'];
 			$description = $row['description'];
-			$img = 'image goes here';
+			$img = $row['img'];
 			$link = $row['link'];
 
 			// show form
