@@ -165,6 +165,9 @@ footer {
     border: 1px solid black;
 }
 
+.dan{
+	margin-bottom: 130px;
+}
 h3{
 	font-weight: bolder;
 	padding-top: 17px;
@@ -178,4 +181,10 @@ h3{
 .cancel{
 	margin-right: auto;
     margin-left: auto;
+}
+
+.kim{
+	margin: 0 auto;
+    max-width: 1100px;
+    width: 95%;
 }

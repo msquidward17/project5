@@ -9,14 +9,14 @@
 <body class="list">
 
 <nav class="navbar navbar-light">
-<span class="navbar-brand mb-0 h1 text-white"> 
+<span class="navbar-brand mb-0 h1 text-white ml-5 pl-5"> 
 	
 	Pursuing Web Development
 	 
 </span>
 </nav>
 
-	<nav class="navbar-expand-lg navbar-light pt-4 pr-3">
+	<nav class="navbar-expand-lg navbar-light pt-4 pr-3 mr-5 pr-5">
   <div class="collapse navbar-collapse" id="navbarNav">
   <ul class="nav navbar-nav navbar-right">
       <li><a href="index.php" class="home">HOME</a></li>
@@ -27,7 +27,7 @@
 
 	
 		<main>
-			<div class="container-fluid pl-4 pr-4">
+			<div class="container-fluid pl-4 pr-4 kim">
 			<h2 class="line">Our Group</h2>
 				<div class="row pb-5 pt-3">
 					<div class="col text-left">
@@ -75,7 +75,7 @@
 		</main>
 
 <!-- Footer -->
-<footer class="page-footer font-small blue">
+<footer class="page-footer font-small blue footer fixed-bottom footer-light footer-shadow">
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">Project 3 - Los Angeles
