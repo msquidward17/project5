@@ -120,7 +120,7 @@ article section img {
 /*******************************
 	List.php Links Styles
 *******************************/
-article section .links a {
+.db-link, .page-link {
 	display: block;
 	text-decoration: none;
 	padding: 12px;
@@ -129,21 +129,21 @@ article section .links a {
 	text-align: center;
 	border: 1px solid black;
 }
-article section .links .db-link {
+.db-link {
 	background-color: #ffffff;
 	color: black;
 }
-article section .links .db-link:hover {
+.db-link:hover {
 	background-color: #e8e8e8;
 }
-article section .links .page-link {
+.page-link {
 	background-color: #da5c18e0;
 	color: white;
 }
-article section .links .page-link:hover {
+.page-link:hover {
 	background-color: #cf500c;
 }
-article section .links {
+.links {
 	margin-right: 20px;
 }
 
