@@ -173,15 +173,7 @@ h3{
 	padding-top: 17px;
 }
 
-@media (min-width: 992px){
-.cancel{
-    max-width: 960px;
-}}
 
-.cancel{
-	margin-right: auto;
-    margin-left: auto;
-}
 
 .kim{
 	margin: 0 auto;
