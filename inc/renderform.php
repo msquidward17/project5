@@ -49,7 +49,10 @@ if ($error != '') {
 								<div class="row">
 									<div class="col-xs-12 col-sm-12 col-md-12">
 										<div class="form-group">
-											<label for="img">Image*</label>
+											<div>
+												<label for="img">Image*</label>
+											</div>
+											
 											<img src="<?php echo $img; ?>" alt="current image link is broken or missing" class="img-thumbnail"><br>
 											<input type="url" id="img" name="img" value="<?php echo $img; ?>"><br>
 										</div>
