@@ -48,8 +48,8 @@
 
 							<div class="links">
 								<a href="<?php echo $row['link']; ?>" class="page-link"><?php echo $row['firstname']; ?>'s Page</a>
-								<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link">Edit</a>
-								<a href="db_delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link">Delete</a>
+								<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link edit">Edit</a>
+								<a href="db_delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link delete">Delete</a>
 							</div>
 					</section>
 <?php
@@ -58,7 +58,7 @@
 ?>
 				</article>
 				<div>
-					<a href="db_new.php" class="db-link" >Add New Student</a>
+					<a href="db_new.php" class="db-link add" >Add New Student</a>
 				</div>
 			</div>
 		</main>
