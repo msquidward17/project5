@@ -46,9 +46,13 @@ if ($error != '') {
 									</div>
 								</div>
 
-								<div class="form-group">
-									<img src="<?php echo $img; ?>" alt="If you can see this, the current image link is broken.">
-									<input type="url" id="img" name="img" value="<?php echo $img; ?>" placeholder="Image"><br>
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="form-group">
+											<img src="<?php echo $img; ?>" alt="If you can see this, the current image link is broken." class="img-thumbnail"><br>
+											<input type="url" id="img" name="img" value="<?php echo $img; ?>" placeholder="Image"><br>
+										</div>
+									</div>
 								</div>
 
 								<div class="row">

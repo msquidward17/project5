@@ -33,7 +33,7 @@ input[type=file] {
     display: inline;
 }
 
-#firstname, #lastname, #description, #link{
+#firstname, #lastname, #img, #description, #link{
         width: 100%;
 }
 
