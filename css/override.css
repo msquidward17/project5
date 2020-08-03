@@ -86,10 +86,6 @@ table a {
 	text-align: center;
 }
 
-.bg-light{
-	background-color: #0e304c;
-}
-
 .navbar{
 border-bottom: 7px solid #56c4cf;
 background-color: #0e304c;
@@ -107,4 +103,22 @@ nav, div{
 
 .my-3{
 	margin-bottom: 0!important;
+}
+
+.col{
+	text-align: center;
+}
+
+#navbarNav{
+	align-items: right;
+}
+
+.bg-light {
+    background-color: #0e304c!important;
+}
+
+footer {
+    background-color: #0e304c;
+    color: white;
+	border-top: 7px solid #56c4cf;
 }

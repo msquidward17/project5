@@ -8,15 +8,15 @@
 
 <body class="list">
 
-<nav class="navbar navbar-light bg-light">
-<span class="navbar-brand mb-0 h1 mx-auto"> 
-	<a href="index.php">
-	<h1>Pursuing Web Development </h1>
-	</a>  
+<nav class="navbar navbar-light">
+<span class="navbar-brand mb-0 h1 mx-auto text-white"> 
+	
+	Pursuing Web Development
+	 
 </span>
 </nav>
 
-	<nav class="navbar-right navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar-right navbar-expand-lg navbar-light">
 
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
@@ -77,11 +77,14 @@
 			</div>
 		</main>
 
-		<footer>
-			<div class="container">
-				<p>Project 3 - Los Angeles</p>
-			</div>
-		</footer>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Project 3 - Los Angeles
+  </div>
+  <!-- Copyright -->
+
 
 		<?php include "inc/scripts.php"; ?>
 	</body>
