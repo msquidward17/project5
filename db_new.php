@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
 		$result = mysqli_query($connection, "INSERT INTO students (firstname, lastname, description, img, link) VALUES ('$firstname', '$lastname', '$description', '$img', '$link')");
 
 		// once saved, redirect back to the view page
-		header("Location: db_view.php");
+		header("Location: list.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form

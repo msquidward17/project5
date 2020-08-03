@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
 			$result = mysqli_query($connection, "UPDATE students SET firstname='$firstname', lastname='$lastname', description='$description', img='$img', link='$link' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
-			header("Location: db_view.php");
+			header("Location: list.php");
 		}
 	} else {
 		// if the 'id' isn't valid, display an error

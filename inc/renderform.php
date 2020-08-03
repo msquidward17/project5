@@ -70,7 +70,7 @@ if ($error != '') {
 								
 								<input type="submit" name="submit" value="Submit" class="btn btn-info btn-block">
 								<div id="formFooter">
-									<a class="underlineHover" href="db_view.php">Cancel</a>
+									<a class="underlineHover" href="list.php">Cancel</a>
 								</div>
 							</form>
 						</div>
