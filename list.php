@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
@@ -45,11 +46,13 @@
 								<p><?php echo $row['description']; ?></p>
 							</div>
 						</div>
-
+						
 							<div class="links">
 								<a href="<?php echo $row['link']; ?>" class="page-link" target="_blank">Visit <?php echo $row['firstname']; ?>'s Page</a>
-								<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link edit">Edit</a>
-								<a href="db_delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link delete">Delete</a>
+								<?php if(isset($_SESSION['username'])) { ?>
+									<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link edit">Edit</a>
+									<a href="db_delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link delete">Delete</a>
+								<?php } ?>
 							</div>
 					</section>
 <?php
@@ -58,7 +61,9 @@
 ?>
 				</article>
 				<div>
+					<?php if(isset($_SESSION['username'])) { ?>
 					<a href="db_new.php" class="db-link add" >Add New Student</a>
+					<?php } ?>
 				</div>
 			</div>
 		</main>

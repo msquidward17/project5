@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php $customCSS="<link rel='stylesheet' href='css/index-styles.css'>"; ?>
 
 <?php include "inc/html-top.php";?>
@@ -9,17 +10,9 @@
 					<h1>Pursuing Web Development</h1>
 					<div class="subtitle"> Learn about aspiring web developers and see what it takes to become one </div>
 				</div>
-				<form action = "/" class="strong-fallow">
-					<div>
-						<label for="fname">Username:</label>
-						<input type="text" id="fname" name="fname" value="">
-					</div>
-					<div>
-						<label for="lname">Password:</label>
-						<input type="text" id="lname" name="lname" value="">
-					</div>
-					<input id="login" type="submit" value="Login">
-				</form> 
+				<?php if(isset($_SESSION['username'])) { ?>
+				<a href="db_new.php">Add a new record</a>
+				<?php } ?>
 			</div>
 
 		</header>
