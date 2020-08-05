@@ -10,7 +10,14 @@
 					<h1>Pursuing Web Development</h1>
 					<div class="subtitle"> Learn about aspiring web developers and see what it takes to become one </div>
 				</div>
-				<a href="login.php">Login</a>
+				<div style="float: right; margin-top: 30px;">
+				<?php if(isset($_SESSION['username'])) { ?>
+					<a href="logout.php">Logout of your User Account</a>
+					<?php } else { ?>
+					<a href="login.php">Login to your User Account</a>
+				<?php } ?>
+				</div>
+				
 				<?php if(isset($_SESSION['username'])) { ?>
 				<a href="db_new.php">Add a new record</a>
 				<?php } ?>

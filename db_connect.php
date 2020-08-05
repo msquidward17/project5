@@ -6,17 +6,17 @@ $pass = 'NotMyPassw0rd!';
 $db = 'urcscon3_la'; */
 
 // Bluehost database connection
-/* $server = '66.147.242.186';
+$server = '66.147.242.186';
 $user = 'urcscon3_lap5';
 $pass = 'coffeelap5!';
-$db = 'urcscon3_lap5'; */
+$db = 'urcscon3_lap5';
 
-// Localhost database information
+/* // Localhost database information
 $server = 'localhost';
 $user = 'lap5';
 $pass = 'coffeelap5!';
 $db = 'lap5';
-
+ */
 // Connect to Database
 $connection = mysqli_connect($server,$user,$pass,$db);
 if (!$connection) {

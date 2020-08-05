@@ -9,10 +9,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 ?>
 <?php
-include('inc/renderform.php');
+include('renderform.php');
 
 // connect to the database
-include('inc/db_connect.php');
+include('db_connect.php');
 
 // check if the form has been submitted. If it has, start to process the form and save it to the database
 if (isset($_POST['submit'])) {

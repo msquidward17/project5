@@ -10,7 +10,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 ?>
 <?php
 // connect to the database
-include('inc/db_connect.php');
+include('db_connect.php');
 
 // check if the 'id' variable is set in URL, and check that it is valid
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {

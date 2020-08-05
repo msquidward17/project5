@@ -5,12 +5,12 @@
 	<body class="list">
 <?php
 	// connect to the database
-	include('inc/db_connect.php');
+	include('db_connect.php');
 	
 	// get results from database
 	$result = mysqli_query($connection, "SELECT * FROM students");
 ?>
-		<header >
+		<header>
 			<div class="container">
 				<a href="index.php">
 					<h1>Pursuing Web Development </h1>
@@ -18,6 +18,15 @@
 			</div>
 		</header>
 
+		<div style="float: right; margin-top: 30px;">
+			<?php if(isset($_SESSION['username'])) { ?>
+			<a href="logout.php">Logout of your User Account</a>
+			<?php } else { ?>
+			<a href="login.php">Login to your User Account</a>
+			<?php } ?>
+		</div>
+		
+		
 		<nav id="cssmenu">
 			<div class="container">
 				<ul>	
@@ -25,6 +34,7 @@
 					<li><a href = "index.php" > Home </a></li>
 				</ul>
 			</div>
+			
 		</nav>
 
 		<main>

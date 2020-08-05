@@ -6,7 +6,7 @@
 	<body>
 <?php
 	// connect to the database
-	include('inc/db_connect.php');
+	include('db_connect.php');
 	
 	// get results from database
 	$result = mysqli_query($connection, "SELECT * FROM students");
