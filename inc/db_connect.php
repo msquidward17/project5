@@ -1,9 +1,9 @@
 <?php
 // Database Variables (edit with your own server information)
 $server = '66.147.242.186';
-$user = 'urcscon3_la';
-$pass = 'NotMyPassw0rd!';
-$db = 'urcscon3_la';
+$user = 'urcscon3_lap5';
+$pass = 'coffeelap5!';
+$db = 'urcscon3_lap5';
 
 // Connect to Database
 $connection = mysqli_connect($server,$user,$pass,$db);
