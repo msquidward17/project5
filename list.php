@@ -47,7 +47,7 @@
 						</div>
 
 							<div class="links">
-								<a href="<?php echo $row['link']; ?>" class="page-link"><?php echo $row['firstname']; ?>'s Page</a>
+								<a href="<?php echo $row['link']; ?>" class="page-link" target="_blank">Visit <?php echo $row['firstname']; ?>'s Page</a>
 								<a href="db_edit.php?id=<?php echo $row['id']; ?>" class="db-link edit">Edit</a>
 								<a href="db_delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete: <?php echo $row['firstname']; ?>?')" class="db-link delete">Delete</a>
 							</div>
@@ -65,7 +65,7 @@
 
 		<footer>
 			<div class="container">
-				<p>Project 3 - Los Angeles</p>
+				<p>Project 5 - Los Angeles</p>
 			</div>
 		</footer>
 

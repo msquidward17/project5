@@ -8,7 +8,7 @@ function renderForm($id, $firstname, $lastname, $description, $img, $link, $erro
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
-		<title>LA Project 4</title>
+		<title>LA Project 5</title>
 		
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
@@ -50,7 +50,7 @@ if ($error != '') {
 									<div class="col-xs-12 col-sm-12 col-md-12">
 										<div class="form-group">
 											<div>
-												<label for="img">Image*</label>
+												<label for="img">Image (in the form of a link)*</label>
 											</div>
 											
 											<img src="<?php echo $img; ?>" alt="current image link is broken or missing" class="img-thumbnail"><br>
