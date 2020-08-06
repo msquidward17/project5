@@ -109,7 +109,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             
                         </div>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <p><em>Please fill in your credentials to login.</em></p>
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                 <label id="label">Username</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">

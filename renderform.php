@@ -29,6 +29,7 @@ if ($error != '') {
 				<div class="add-form">
 					<div class="panel panel-default">
 						<div class="panel-heading">
+							<a href="index.php" class="btn btn-warning" id="home"> Home </a>
 							<h3 class="panel-title">Add New Student</h3>
 						</div>
 						<div class="panel-body">
@@ -72,11 +73,9 @@ if ($error != '') {
 										</div>
 									</div>
 								</div>
-								* field is required
-								<input type="submit" name="submit" value="Submit" class="btn btn-info btn-block">
-								<div id="formFooter">
-									<a class="underlineHover" href="list.php">Cancel</a>
-								</div>
+								
+								<input type="submit" name="submit" value="Submit" class="btn btn-primary" id="new-student">
+								
 							</form>
 						</div>
 					</div>

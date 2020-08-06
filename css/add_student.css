@@ -45,6 +45,12 @@ input[type=file] {
 
 .btn-primary {
     margin-left: 380px;
+    background-color: #5bc0de;
+    border-color: #46b8da;;
+}
+
+.btn-primary:hover {
+    background: #3b878f
 }
 
 label {
@@ -53,7 +59,7 @@ label {
 }
 
 h3{
-    padding: 5px 0 5px 0;
+    padding: 5px 1px 5px 0;
     margin: 0 auto;
     width: 50%
 }
@@ -67,4 +73,8 @@ em {
 
 #home {
     float: left;
-}
+ }
+
+ #new-student {
+    float: right;
+ }

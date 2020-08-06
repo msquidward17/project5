@@ -249,6 +249,7 @@ footer {
   float: right;
   background-color: #56c4cf;
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .terminal {
@@ -281,6 +282,7 @@ footer {
   background-color: white;
   border: 1px solid #56c4cf;
   color: #56c4cf;
+  margin-right: 40px;
 }
 
 #adder a:hover {
