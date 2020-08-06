@@ -17,10 +17,10 @@
 				</a>
 				<div class="login terminal">
 					<?php if(isset($_SESSION['username'])) { ?>
-					<a href="logout.php">Logout of your User Account</a>
+					<a href="logout.php">Logout</a>
 		      <a href="reset-password.php">Reset your password</a>
 					<?php } else { ?>
-					<a href="login.php">Log in to your User Account</a>
+					<a href="login.php">Log in</a>
 					<?php } ?>
 				</div>
 			</div>

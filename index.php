@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+project5<?php session_start(); ?>
 <?php $customCSS="<link rel='stylesheet' href='css/index-styles.css'>"; ?>
 
 <?php include "inc/html-top.php";?>
@@ -12,10 +12,10 @@
 				</div>
 				<div id="login" class="terminal" >
 				<?php if(isset($_SESSION['username'])) { ?>
-					<a href="logout.php">Logout of your User Account</a>
+					<a href="logout.php">Logout</a>
           <a href="reset-password.php">Reset your password</a>
 					<?php } else { ?>
-					<a href="login.php">Log in to your User Account</a>
+					<a href="login.php">Log in</a>
 				<?php } ?>
 
 
