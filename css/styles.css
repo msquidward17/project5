@@ -73,7 +73,11 @@ Breadcrumb Navigation
   flex-direction: row-reverse;
   margin: 14px;
   left: 0;
-  justify-content: flex-start;
+  justify-content: flex-start; 
+  float: left;
+  margin-right: 200px;
+  margin-left: 0px;
+  padding-left: 20px;
 }
 #cssmenu ul li a,
 #cssmenu ul .current {
@@ -238,7 +242,7 @@ footer {
 /*Project 5 Additions*/
 
 
-#login a {
+.login a {
   float: right;
   background-color: #56c4cf;
   margin-bottom: 5px;
@@ -268,3 +272,7 @@ footer {
   columns:300px 2;
 }
 
+
+#adder a{
+  margin-top: 5px;
+}

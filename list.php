@@ -15,7 +15,7 @@
 				<a href="index.php">
 					<h1>Pursuing Web Development </h1>
 				</a>
-				<div id="login" class="terminal">
+				<div class="login terminal">
 					<?php if(isset($_SESSION['username'])) { ?>
 					<a href="logout.php">Logout of your User Account</a>
 		      		<a href="reset-password.php">Reset your password</a>
@@ -30,13 +30,18 @@
 
 
 		<nav id="cssmenu">
-			<div class="container">
+			<div class="containerh">
 				<ul>
 					<li class="current"> Showcase </li>
 					<li><a href = "index.php" > Home </a></li>
 				</ul>
+			
+			<div class="terminal login" id="adder">
+					<?php if(isset($_SESSION['username'])) { ?>
+					<a href="db_new.php"  >Add New Student</a>
+					<?php } ?>
 			</div>
-
+			</div>
 		</nav>
 
 		<main>
@@ -72,11 +77,7 @@
 	}
 ?>
 				</article>
-				<div>
-					<?php if(isset($_SESSION['username'])) { ?>
-					<a href="db_new.php" class="db-link add" >Add New Student</a>
-					<?php } ?>
-				</div>
+
 			</div>
 		</main>
 

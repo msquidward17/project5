@@ -17,11 +17,12 @@
 					<?php } else { ?>
 					<a href="login.php">Login to your User Account</a>
 				<?php } ?>
-				</div>
+				
 
 				<?php if(isset($_SESSION['username'])) { ?>
 				<a href="db_new.php">Add a new record</a>
 				<?php } ?>
+				</div>
 			</div>
 
 		</header>
@@ -44,7 +45,7 @@
 					<li> <div> 27% </div> Job Growth for Web Developers by 2024 </li>
 				</ul>
 
-				<div class="terminal"> <a href="list.php"> Start Learning </a> </div>
+				<div class="terminal"> <a href="list.php"> See Our Students </a> </div>
 				<!-- <button onclick = "window.location.href='list.php'">
 					Start Learning
 				</button> -->
