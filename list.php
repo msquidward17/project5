@@ -1,4 +1,4 @@
-<a href="reset-password.php">Reset your password</a><?php session_start(); ?>
+<?php session_start(); ?>
 <?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
