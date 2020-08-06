@@ -141,10 +141,11 @@ Terminal Area (Bottom Right)
 
 
 /*Project 5 additions*/
-
 #login {
 	margin: 0 0 0 0;
 }
+
 #login a {
   float: right;  
+  margin: 0 0 0 10px;
 }
