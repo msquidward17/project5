@@ -42,3 +42,29 @@ input[type=file] {
     border-color: #0e304c;
     color: whitesmoke;
 }
+
+.btn-primary {
+    margin-left: 380px;
+}
+
+label {
+    float: left;
+    padding: 5px;
+}
+
+h3{
+    padding: 5px 0 5px 0;
+    margin: 0 auto;
+    width: 50%
+}
+p{
+    margin-top: 5px;
+}
+
+em {
+    font-style: italic;
+}
+
+#home {
+    float: left;
+}

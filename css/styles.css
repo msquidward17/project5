@@ -276,7 +276,7 @@ footer {
 }
 
 
-#adder a:nth-of-type(3) {
+#adder a{
   margin-top: 5px;
   background-color: white;
   border: 1px solid #56c4cf;
