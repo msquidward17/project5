@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<a href="reset-password.php">Reset your password</a><?php session_start(); ?>
 <?php $customCSS="<link rel='stylesheet' href='css/styles.css'>"; ?>
 <?php include "inc/html-top.php";?>
 
@@ -6,7 +6,7 @@
 <?php
 	// connect to the database
 	include('db_connect.php');
-	
+
 	// get results from database
 	$result = mysqli_query($connection, "SELECT * FROM students");
 ?>
@@ -21,29 +21,30 @@
 		<div style="float: right; margin-top: 30px;">
 			<?php if(isset($_SESSION['username'])) { ?>
 			<a href="logout.php">Logout of your User Account</a>
+      <a href="reset-password.php">Reset your password</a>
 			<?php } else { ?>
 			<a href="login.php">Login to your User Account</a>
 			<?php } ?>
 		</div>
-		
-		
+
+
 		<nav id="cssmenu">
 			<div class="container">
-				<ul>	
+				<ul>
 					<li class="current"> Showcase </li>
 					<li><a href = "index.php" > Home </a></li>
 				</ul>
 			</div>
-			
+
 		</nav>
 
 		<main>
 			<div class="container">
-				
+
 
 				<article>
 					<h2>Our Group</h2>
-			
+
 <?php
 	// loop through results of database query, displaying them in the table
 	while($row = mysqli_fetch_array( $result )) {
@@ -56,7 +57,7 @@
 								<p><?php echo $row['description']; ?></p>
 							</div>
 						</div>
-						
+
 							<div class="links">
 								<a href="<?php echo $row['link']; ?>" class="page-link" target="_blank">Visit <?php echo $row['firstname']; ?>'s Page</a>
 								<?php if(isset($_SESSION['username'])) { ?>
