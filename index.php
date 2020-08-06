@@ -15,12 +15,12 @@
 					<a href="logout.php">Logout of your User Account</a>
           <a href="reset-password.php">Reset your password</a>
 					<?php } else { ?>
-					<a href="login.php">Login to your User Account</a>
+					<a href="login.php">Log in to your User Account</a>
 				<?php } ?>
-				
+
 
 				<?php if(isset($_SESSION['username'])) { ?>
-				<a href="db_new.php">Add a new record</a>
+				<a href="db_new.php">Add New Student</a>
 				<?php } ?>
 				</div>
 			</div>

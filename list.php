@@ -18,15 +18,15 @@
 				<div class="login terminal">
 					<?php if(isset($_SESSION['username'])) { ?>
 					<a href="logout.php">Logout of your User Account</a>
-		      		<a href="reset-password.php">Reset your password</a>
+		      <a href="reset-password.php">Reset your password</a>
 					<?php } else { ?>
-					<a href="login.php">Login to your User Account</a>
+					<a href="login.php">Log in to your User Account</a>
 					<?php } ?>
 				</div>
 			</div>
 		</header>
 
-		
+
 
 
 		<nav id="cssmenu">
@@ -35,7 +35,7 @@
 					<li class="current"> Showcase </li>
 					<li><a href = "index.php" > Home </a></li>
 				</ul>
-			
+
 			<div class="terminal login" id="adder">
 					<?php if(isset($_SESSION['username'])) { ?>
 					<a href="db_new.php"  >Add New Student</a>
