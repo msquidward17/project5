@@ -49,7 +49,7 @@
 
 
 				<article>
-					<h2>Our Group</h2>
+					<h2>Our Students</h2>
 
 <?php
 	// loop through results of database query, displaying them in the table
