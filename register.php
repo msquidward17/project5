@@ -109,8 +109,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <div class="add-form">
                     <div class="panel panel-default">
                         <div class="panel-heading">
+                            <input type="reset" class="btn btn-default" id="reset" value="Reset">
                             <a href="index.php" class="btn btn-warning" id="home"> Home </a>
                             <h3 class="panel-title">Register</h3>
+                            
                         </div>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
@@ -129,8 +131,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <span class="help-block"><?php echo $confirm_password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Register">
-                <input type="reset" class="btn btn-default" value="Reset">
+                <input type="submit" class="btn btn-primary" id="new-student" value="Register">
             </div>
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>

@@ -77,4 +77,9 @@ em {
 
  #new-student {
     float: right;
+    margin-right: 10px;
+ }
+
+ #reset {
+    float: right;
  }
