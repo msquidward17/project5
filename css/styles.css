@@ -275,4 +275,11 @@ footer {
 
 #adder a{
   margin-top: 5px;
+  background-color: white;
+  border: 1px solid #56c4cf;
+  color: #56c4cf
+}
+
+#adder a:hover {
+  background: #3b878f;
 }
