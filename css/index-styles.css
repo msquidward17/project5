@@ -149,3 +149,12 @@ Terminal Area (Bottom Right)
   float: right;  
   margin: 0 0 0 10px;
 }
+
+#login a:nth-of-type(3) {
+  background-color: white;
+  border: 1px solid #56c4cf;
+  color: #56c4cf;
+}
+#login a:nth-of-type(3):hover {
+  background: #e8e8e8;
+}
