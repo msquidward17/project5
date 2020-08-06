@@ -11,21 +11,22 @@
 	$result = mysqli_query($connection, "SELECT * FROM students");
 ?>
 		<header>
-			<div class="container">
+			<div class="containerh">
 				<a href="index.php">
 					<h1>Pursuing Web Development </h1>
 				</a>
+				<div id="login" class="terminal">
+					<?php if(isset($_SESSION['username'])) { ?>
+					<a href="logout.php">Logout of your User Account</a>
+		      		<a href="reset-password.php">Reset your password</a>
+					<?php } else { ?>
+					<a href="login.php">Login to your User Account</a>
+					<?php } ?>
+				</div>
 			</div>
 		</header>
 
-		<div style="float: right; margin-top: 30px;">
-			<?php if(isset($_SESSION['username'])) { ?>
-			<a href="logout.php">Logout of your User Account</a>
-      <a href="reset-password.php">Reset your password</a>
-			<?php } else { ?>
-			<a href="login.php">Login to your User Account</a>
-			<?php } ?>
-		</div>
+		
 
 
 		<nav id="cssmenu">

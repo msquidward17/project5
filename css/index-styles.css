@@ -140,3 +140,13 @@ Terminal Area (Bottom Right)
 }
 
 
+/*Project 5 additions*/
+
+#login {
+	margin: 0 0 0 0;
+}
+#login a {
+  float: right;
+  background-color: #56c4cf;
+  
+}

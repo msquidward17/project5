@@ -10,7 +10,7 @@
 					<h1>Pursuing Web Development</h1>
 					<div class="subtitle"> Learn about aspiring web developers and see what it takes to become one </div>
 				</div>
-				<div style="float: right; margin-top: 30px;">
+				<div id="login" class="terminal" >
 				<?php if(isset($_SESSION['username'])) { ?>
 					<a href="logout.php">Logout of your User Account</a>
           <a href="reset-password.php">Reset your password</a>
