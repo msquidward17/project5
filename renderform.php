@@ -8,9 +8,9 @@ function renderForm($id, $firstname, $lastname, $description, $img, $link, $erro
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
+
 		<title>LA Project 5</title>
-		
+
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -30,7 +30,7 @@ if ($error != '') {
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<a href="index.php" class="btn btn-warning" id="home"> Home </a>
-							<h3 class="panel-title">Add New Student</h3>
+							<h3 class="panel-title">Add/Edit Student Info</h3>
 						</div>
 						<div class="panel-body">
 							<form action="" method="post">
@@ -54,7 +54,7 @@ if ($error != '') {
 											<div>
 												<label for="img">Image (in the form of a link)*</label>
 											</div>
-											
+
 											<img src="<?php echo $img; ?>" alt="current image link is broken or missing" class="img-thumbnail"><br>
 											<input type="url" id="img" name="img" value="<?php echo $img; ?>"><br>
 										</div>
@@ -73,9 +73,9 @@ if ($error != '') {
 										</div>
 									</div>
 								</div>
-								
+
 								<input type="submit" name="submit" value="Submit" class="btn btn-primary" id="new-student">
-								
+
 							</form>
 						</div>
 					</div>
