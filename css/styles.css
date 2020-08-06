@@ -136,6 +136,7 @@ article section img {
   background-color: white;
   border: 1px solid #56c4cf;
   color: #56c4cf;
+  width: 225px;
 }
 .db-link:hover {
   background-color: #e8e8e8;
@@ -143,6 +144,7 @@ article section img {
 .page-link {
   background-color: #da5c18e0;
   color: white;
+  width: 225px;
 }
 .page-link:hover {
   background-color: #cf500c;
