@@ -62,17 +62,20 @@ if ($error != '') {
 								</div>
 
 								<div class="row">
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<label for="description">Description*</label><input type="text" id="description" name="description" value="<?php echo $description; ?>"><br>
-										</div>
-									</div>
-									<div class="col-xs-6 col-sm-6 col-md-6">
+									<div class="col-xs-12 col-sm-12 col-md-12">
 										<div class="form-group">
 											<label for="link">Link*</label><input type="url" id="link" name="link" value="<?php echo $link; ?>"><br>
 										</div>
 									</div>
-								</div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                      <label for="description">Description*</label><textarea type="text" id="description" name="description" value="<?php echo $description; ?>"></textarea> <br>
+                    </div>
+                  </div>
+                </div>
+
 
 								<input type="submit" name="submit" value="Submit" class="btn btn-primary" id="new-student">
 
