@@ -1,15 +1,15 @@
 <?php
 // Database Variables (edit with your own server information)
-/* $server = '66.147.242.186';
+$server = '66.147.242.186';
 $user = 'urcscon3_la';
 $pass = 'NotMyPassw0rd!';
-$db = 'urcscon3_la'; */
+$db = 'urcscon3_la';
 
-// Bluehost database connection
+/* // Bluehost database connection
 $server = '66.147.242.186';
 $user = 'urcscon3_lap5';
 $pass = 'coffeelap5!';
-$db = 'urcscon3_lap5';
+$db = 'urcscon3_lap5'; */
 
 /* // Localhost database information
 $server = 'localhost';
