@@ -71,7 +71,7 @@ if ($error != '') {
                 <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                      <label for="description">Description*</label><textarea type="text" id="description" name="description" value="<?php echo $description; ?>"></textarea> <br>
+                      <label for="description">Description*</label><textarea type="text" id="description" name="description"><?php echo $description; ?></textarea> <br>
                     </div>
                   </div>
                 </div>
