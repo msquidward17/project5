@@ -56,10 +56,14 @@
 	while($row = mysqli_fetch_array( $result )) {
 ?>
 					<section class="article part1">
-						<div class="left-flex">
+						<div>
+						
 							<img src="<?php echo $row['img']; ?>" alt="image for <?php echo $row['firstname']; ?>" width="200" height="200">
+							
+
 							<div class="goal">
 								<h3><?php echo $row['firstname']; ?> <?php echo $row['lastname']; ?></h3>
+
 								<p><?php echo $row['description']; ?></p>
 							</div>
 						</div>
